@@ -3,14 +3,13 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='p-4 border-t-4 flex flex-col justify-center text-md md:flex-row md:text-lg'>
+    <div className='p-4 border-t-4 flex flex-col justify-center text-sm md:flex-row md:text-md'>
         <ul className='flex flex-col gap-1 md:w-1/2 p-4'>
             <li className='mx-auto md:m-0'>Impressum</li>
             <li>Marian Nökel</li>
             <li>Schlierseestrasse 10</li>
             <li>81541 München</li>
-            <li>Mail: noekel@namaste-websites.de</li>
-            <li>Tel.: 01523-1432433</li>
+            <li>noekel@namaste-websites.de</li>
             <li>
             Hinweis zu § 36 VSBG: Wir nehmen an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle nicht teil und sind dazu auch nicht verpflichtet.
             </li>

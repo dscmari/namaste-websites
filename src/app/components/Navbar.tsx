@@ -42,10 +42,6 @@ export default function Navbar() {
     if(burgermenu) {
         return(
             <div className='p-4 border-b-4'>
-                <p className='p-4 text-md flex flex-col items-end'>
-                    <span>01523 1432433</span>
-                    <span>noekel@namaste-websites.de</span>
-                </p>
                 <div className='flex justify-between items-center'>
                     <img className='m-4' src="#" alt="namaste-websites logo" />
                     <div className="burgermenu" id='burger-menu' onClick={toggleMenu}>
@@ -69,10 +65,6 @@ export default function Navbar() {
     } else {
         return(
             <div>
-                <p className='p-12 pb-4 text-md flex flex-col items-end'>
-                    <span>01523 1432433</span>
-                    <span>noekel@namaste-websites.de</span>
-                </p>
                 <div className='border-b-4 flex justify-around pb-12 pt-6 items-center'>
                     <img src="#" alt="namaste-websites logo" />
                     <ul className='flex gap-4'>

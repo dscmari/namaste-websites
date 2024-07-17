@@ -7,10 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    color: {
-      cadedBlue: '#5F9EA0'
-    },
     extend: {
+      colors: {
+        cadedBlue: '#5F9EA0',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
