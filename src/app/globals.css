@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 /* Navbar */
-
 .burgermenu {
     width: 60px;
     height: 45px;
@@ -21,12 +20,12 @@
   
 }
 
-span {
+.burgermenu > span {
     display: block;
     position: absolute;
     height: 6px;
     width: 100%;
-    background: green;
+    background: cadetblue;
     border-radius: 9px;
     opacity: 1;
     left: 0;
