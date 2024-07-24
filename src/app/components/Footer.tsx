@@ -15,7 +15,7 @@ export default function Footer() {
             </li>
         </ul>
         <ul className='mt-4 md:mt-0 p-4 flex flex-col items-center gap-4 underline'>
-            <li><Link href="/Datenschutz">Datenschutz</Link></li>
+            <li><Link href="/Datenschutz">Datenschutzerklärung</Link></li>
             <li><Link href="/AGBs">Allgemeine Geschäftsbedingungen</Link></li>
         </ul>
     </div>
