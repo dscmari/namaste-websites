@@ -58,8 +58,8 @@ export default function Contact() {
                     {...register('message', { required: true })}
                     ></textarea>
                 </div>
-                <div>
-                    <p className='p-4'>Datenschutzinfo TODO: Standardverweis auf Datenschutz einfügen</p>
+                <div className='text-center'>
+                    <p className='p-4 text-left'>Datenschutzinfo TODO: Standardverweis auf Datenschutz einfügen</p>
                     <button className='hover:shadow-form rounded-md bg-cadedBlue py-3 px-8 font-semibold text-white outline-none'>
                         Senden
                     </button>
