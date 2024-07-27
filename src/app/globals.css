@@ -71,3 +71,12 @@
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
+
+  /* lists */
+  .offer-list li {
+    padding-top: 0.5rem;
+  }
+  .checkmark::before {
+    content: '\2713'; /* Unicode checkmark character */
+    color: green; /* Set the color */
+}

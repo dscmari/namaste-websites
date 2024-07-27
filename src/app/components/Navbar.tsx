@@ -43,7 +43,7 @@ export default function Navbar() {
         return(
             <div className='p-4 border-b-4'>
                 <div className='flex justify-between items-center'>
-                    <img className='m-4' src="#" alt="namaste-websites logo" />
+                <Link className='m-4' href="/"><img src="#" alt="namaste-websites logo" /></Link>
                     <div className="burgermenu" id='burger-menu' onClick={toggleMenu}>
                         <span className="top"></span>
                         <span className="middle"></span>
@@ -66,7 +66,7 @@ export default function Navbar() {
         return(
             <div>
                 <div className='border-b-4 flex justify-around pb-12 pt-6 items-center'>
-                    <img src="#" alt="namaste-websites logo" />
+                    <Link href="/"><img src="#" alt="namaste-websites logo" /></Link>
                     <ul className='flex gap-4'>
                         <li><Link href="/Website-Erstellung">Website-Erstellung</Link></li>
                         <li><Link href="/Preise">Preise</Link></li>
