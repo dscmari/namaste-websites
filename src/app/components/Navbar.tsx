@@ -51,7 +51,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className={showMenu ? 'block' : 'hidden'} onClick={toggleMenu}>
-                    <ul className='flex flex-col items-end gap-4 mr-6 text-2xl py-4'>
+                    <ul className='flex flex-col items-end gap-4 mr-6 text-xl py-4'>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/Website-Erstellung">Website-Erstellung</Link></li>
                         <li><Link href="/Preise">Preise</Link></li>
@@ -65,9 +65,9 @@ export default function Navbar() {
     } else {
         return(
             <div>
-                <div className='border-b-4 flex justify-around pb-12 pt-6 items-center'>
+                <div className='border-b-4 flex justify-around py-12'>
                     <Link href="/"><img src="#" alt="namaste-websites logo" /></Link>
-                    <ul className='flex gap-4'>
+                    <ul className='flex gap-4 lg:text-lg'>
                         <li><Link href="/Website-Erstellung">Website-Erstellung</Link></li>
                         <li><Link href="/Preise">Preise</Link></li>
                         <li><Link href="/Referenzen">Referenzen</Link></li>

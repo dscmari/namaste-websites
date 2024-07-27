@@ -80,3 +80,7 @@
     content: '\2713'; /* Unicode checkmark character */
     color: green; /* Set the color */
 }
+
+h1{
+  font-weight: 600;
+}
