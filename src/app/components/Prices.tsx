@@ -11,12 +11,12 @@ function Prices() {
         {/* Paket 1 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3 lg:items-around">
           <h2 className="font-semibold">Paket 1</h2>
-          <p className="font-semibold mb-4">"Schnell online sein"</p>
+          <p className="font-semibold mb-4">&quot;Schnell online sein&quot;</p>
           <div className="mx-8 lg:mx-4  p-4 border-2 border-cadedBlue rounded lg:h-full">
             <p>
               Du hast eine neue Praxis oder bist dabei, Dich gerade selbständig
               zu machen? Dann ist die Web-Präsenz wichtig, damit Du gefunden
-              werden kannst. Das „Schnell-online-sein“-Paket ist ideal, wenn Du
+              werden kannst. Das &quot;Schnell-online-sein&quot;-Paket ist ideal, wenn Du
               wenig Budget hast und schnell eine gute Website benötigst.
             </p>
             <p className="mt-2">Das Paket beinhaltet:</p>
@@ -70,12 +70,12 @@ function Prices() {
         {/* Paket 2 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3">
           <h2 className="font-semibold">Paket 2</h2>
-          <p className="font-semibold mb-4">"Das kleine Paket"</p>
+          <p className="font-semibold mb-4">&quot;Das kleine Paket&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
             <p>
               Du möchtest neben der Startseite auch ein paar Unterseiten haben,
               um Deine Leistungen und Deine Person vorzustellen? Dann eignet
-              sich „Das kleine Paket“ ideal für Dich.
+              sich &quot;Das kleine Paket&quot; ideal für Dich.
             </p>
             <p className="mt-2">Das Paket beinhaltet:</p>
             <ul className="offer-list">
@@ -131,10 +131,10 @@ function Prices() {
         {/* Paket 3 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3">
           <h2 className="font-semibold">Paket 2</h2>
-          <p className="font-semibold mb-4">"Das kleine Paket"</p>
+          <p className="font-semibold mb-4">&quot;Die klassische Website&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
             <p className="text-red-500">
-              //TODO Janosch überlegt sich Text für Paket 3
+              <p>TODO Janosch überlegt sich Text für Paket 3</p>
               <br />
               Entweder Paket 2 oder Paket 3 Calendly Schnittstelle
               

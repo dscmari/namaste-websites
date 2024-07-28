@@ -11,10 +11,10 @@ export default function AGBs() {
       <h1>1. Geltungsbereich</h1>
       <div className="ml-4 lg:ml-12">
         <p>
-          1.1 &nbsp;&nbsp; Die nachstehenden allgemeinen Geschäftsbedingungen
+          1.1&nbsp;&nbsp; Die nachstehenden allgemeinen Geschäftsbedingungen
           gelten für alle Rechtsgeschäfte des Webdesigners Marian Nökel nach
-          diesem Vertrag mit seinem Vertragspartner, nachstehend "Kunde"
-          genannt.
+          diesem Vertrag mit seinem Vertragspartner, nachstehend
+          &quot;Kunde&quot; genannt.
         </p>
         <p>
           1.2 &nbsp;&nbsp; Änderungen dieser Geschäftsbedingungen werden dem
@@ -102,8 +102,8 @@ export default function AGBs() {
       <h1 className="mt-4">7. Markenrechte/Copyrights</h1>
       <p>
         Der Kunde ist verpflichtet, alle rechtliche Verantwortung zu übernehmen,
-        im Hinblick auf Urheberschutz, Jugendschutz, Presserecht und das "Recht
-        am eigenen Bild". Für vom Kunden beauftragte Veröffentlichungen sind nur
+        im Hinblick auf Urheberschutz, Jugendschutz, Presserecht und das &quot;Recht
+        am eigenen Bild&quot;. Für vom Kunden beauftragte Veröffentlichungen sind nur
         Texte und Bilder zu veröffentlichen bzw. zur Veröffentlichung zur
         Verfügung zu stellen, an denen ein entsprechendes Nutzungsrecht besteht
         und zu denen das ggf. erforderliche Einverständnis abgebildeter Personen

@@ -1,6 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link';
+import Image from "next/image";
+import monkey from "../../../public/images/monkey.jpg"
 
 
 export default function Navbar() {
@@ -43,7 +45,7 @@ export default function Navbar() {
         return(
             <div className='p-4 border-b-4'>
                 <div className='flex justify-between items-center'>
-                <Link className='m-4' href="/"><img src="#" alt="namaste-websites logo" /></Link>
+                <Link href="/"><Image src={monkey} alt="Logo" width={100} height={100} /></Link>
                     <div className="burgermenu" id='burger-menu' onClick={toggleMenu}>
                         <span className="top"></span>
                         <span className="middle"></span>
@@ -65,8 +67,8 @@ export default function Navbar() {
     } else {
         return(
             <div>
-                <div className='border-b-4 flex justify-around py-12'>
-                    <Link href="/"><img src="#" alt="namaste-websites logo" /></Link>
+                <div className='border-b-4 flex justify-around py-12 items-center'>
+                    <Link href="/"><Image src={monkey} alt="Logo" width={100} height={100} /></Link>
                     <ul className='flex gap-4 lg:text-lg'>
                         <li><Link href="/Website-Erstellung">Website-Erstellung</Link></li>
                         <li><Link href="/Preise">Preise</Link></li>
