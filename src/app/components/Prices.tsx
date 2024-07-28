@@ -134,7 +134,7 @@ function Prices() {
           <p className="font-semibold mb-4">&quot;Die klassische Website&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
             <p className="text-red-500">
-              <p>TODO Janosch überlegt sich Text für Paket 3</p>
+              TODO Janosch überlegt sich Text für Paket 3
               <br />
               Entweder Paket 2 oder Paket 3 Calendly Schnittstelle
               
