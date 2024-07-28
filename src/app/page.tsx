@@ -30,7 +30,7 @@ export default function Home() {
           </p>
         </div>
         <div className="m-4">
-          <Image src="/namaste-websites/images/monkey.jpg" alt="Logo" width={600} height={600} className="mx-auto" />
+          <Image src="/images/monkey.jpg" alt="Logo" width={600} height={600} className="mx-auto" />
         </div>
       </div>
       {/* Part 2 */}
