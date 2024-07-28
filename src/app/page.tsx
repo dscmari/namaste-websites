@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Prices from "./components/Prices";
 import Link from "next/link";
-import monkey from "../../public/images/monkey.jpg";
+
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
           </p>
         </div>
         <div className="m-4">
-          <Image src={monkey} alt="Logo" width={600} className="mx-auto" />
+          <Image src="/namaste-websites/images/monkey.jpg" alt="Logo" width={600} height={600} className="mx-auto" />
         </div>
       </div>
       {/* Part 2 */}
@@ -57,7 +57,7 @@ export default function Home() {
       {/* Part 3 */}
       <div className="md:flex md:justify-center md:items-center">
         <div className="m-4">
-          <Image src={monkey} alt="Logo" width={600} className="mx-auto" />
+          <Image src="/namaste-websites/images/monkey.jpg" alt="Logo" width={600} height={600} className="mx-auto" />
         </div>
         <div className="p-4">
           <p className="pb-4">
@@ -82,7 +82,7 @@ export default function Home() {
       <div className="m-4">
         <p>Trennbild</p>
         <Image
-          src={monkey}
+          src="/namaste-websites/images/monkey.jpg"
           alt=""
           width={800}
           height={200}
@@ -105,9 +105,10 @@ export default function Home() {
         </div>
         <div className="m-4">
           <Image
-            src={monkey}
+            src="/namaste-websites/images/monkey.jpg"
             alt="Abbildung therapeutischer Arbeit"
             width={600}
+            height={600}
             className="mx-auto"
           />
         </div>
@@ -174,9 +175,10 @@ export default function Home() {
       <div className="md:flex md:justify-around md:items-center">
       <div className="m-4">
           <Image
-            src={monkey}
+            src="/namaste-websites/images/monkey.jpg"
             alt="Abbildung therapeutischer Arbeit"
             width={600}
+            height={600}
             className="mx-auto"
           />
         </div>
