@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Prices from "./components/Prices";
 import Link from "next/link";
-import monkey from "../../public/images/monkey.jpg";
+import monkey from "/namaste-websites/../../public/images/monkey.jpg";
 
 export default function Home() {
   return (
