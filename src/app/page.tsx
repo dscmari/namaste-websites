@@ -14,7 +14,7 @@ export default function Home() {
         <div className="p-4">
           <h1>
             Websites für Heilberufe: <br /> Damit Du schnell für deine Kunden
-            online bist!
+            online bist! Test
           </h1>
           <p className="mb-4">
             Ich erstelle Webseiten für Coaches, Psychotherapeuten, Apotheker,
