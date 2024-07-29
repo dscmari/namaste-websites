@@ -129,7 +129,7 @@ function Prices() {
           </div>
         </div>
         {/* Paket 3 */}
-        <div className="flex flex-col items-center my-4 lg:w-1/3">
+        <div className="flex flex-col items-center my-4 w-full lg:w-1/3">
           <h2 className="font-semibold w-full text-center">Paket 2</h2>
           <p className="font-semibold mb-4 w-full text-center">&quot;Die klassische Website&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
