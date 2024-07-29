@@ -10,8 +10,8 @@ function Prices() {
       <div className="flex flex-col lg:flex-row lg:mx-16">
         {/* Paket 1 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3 lg:items-around">
-          <h2 className="font-semibold">Paket 1</h2>
-          <p className="font-semibold mb-4">&quot;Schnell online sein&quot;</p>
+          <h2 className="font-semibold w-full text-center">Paket 1</h2>
+          <p className="font-semibold mb-4 w-full text-center">&quot;Schnell online sein&quot;</p>
           <div className="mx-8 lg:mx-4  p-4 border-2 border-cadedBlue rounded lg:h-full">
             <p>
               Du hast eine neue Praxis oder bist dabei, Dich gerade selbständig
@@ -69,8 +69,8 @@ function Prices() {
         </div>
         {/* Paket 2 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3">
-          <h2 className="font-semibold">Paket 2</h2>
-          <p className="font-semibold mb-4">&quot;Das kleine Paket&quot;</p>
+          <h2 className="font-semibold w-full text-center">Paket 2</h2>
+          <p className="font-semibold mb-4 w-full text-center">&quot;Das kleine Paket&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
             <p>
               Du möchtest neben der Startseite auch ein paar Unterseiten haben,
@@ -130,8 +130,8 @@ function Prices() {
         </div>
         {/* Paket 3 */}
         <div className="flex flex-col items-center my-4 lg:w-1/3">
-          <h2 className="font-semibold">Paket 2</h2>
-          <p className="font-semibold mb-4">&quot;Die klassische Website&quot;</p>
+          <h2 className="font-semibold w-full text-center">Paket 2</h2>
+          <p className="font-semibold mb-4 w-full text-center">&quot;Die klassische Website&quot;</p>
           <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
             <p className="text-red-500">
               TODO Janosch überlegt sich Text für Paket 3

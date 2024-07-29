@@ -14,7 +14,7 @@ export default function Home() {
         <div className="p-4">
           <h1>
             Websites für Heilberufe: <br /> Damit Du schnell für deine Kunden
-            online bist! Test
+            online bist!
           </h1>
           <p className="mb-4">
             Ich erstelle Webseiten für Coaches, Psychotherapeuten, Apotheker,
@@ -25,7 +25,7 @@ export default function Home() {
             <a href="mailto:noekel@namaste-websites.de" className="underline">
               noekel@namaste-websites.de
             </a>
-            oder
+            <span> oder </span>
             <Link href="/Kontakt" className="underline">
               Kontakt
             </Link>
