@@ -1,14 +1,26 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ weight: "400", subsets: ["latin"] }, );
+const gagalin = localFont({
+  src: './Gagalin-Regular.otf',
+  display: 'swap',
+  variable: '--font-gagalin',
+})
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
 export const metadata: Metadata = {
   title: "Namaste-Websites",
-  description: "Namaste-Websites - building Websites for your healthcare business",
+  description:
+    "Namaste-Websites - building Websites for your healthcare business",
 };
 
 export default function RootLayout({
@@ -17,12 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-        <body className={inter.className}>
-            <Navbar/>
-            {children}
-            <Footer/>
-        </body>
+    <html lang="en" className={`${roboto.className} ${gagalin.variable}`}>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -25,7 +25,6 @@
     position: absolute;
     height: 6px;
     width: 100%;
-    background: cadetBlue;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -71,6 +70,21 @@
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
+
+  .active {
+    text-decoration: underline;
+    text-decoration-color: #71b572;
+    text-underline-offset: 0.4rem; /* Adjust offset if needed */
+    text-decoration-thickness: 0.2em; /* Adjust thickness as desired */
+    transition: text-decoration-color 0.3s ease-in-out; /* Smooth transition effect */
+  }
+
+  .navbar li:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+  }
+
+
 
   /* lists */
   .offer-list li {
