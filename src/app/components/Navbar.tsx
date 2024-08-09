@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/images//logo/logo.jpeg";
+import logo from "../../../public/images//logo/logo.svg";
 import { usePathname } from 'next/navigation'
 
 export default function Navbar() {
