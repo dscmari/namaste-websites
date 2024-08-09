@@ -1,87 +1,83 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Prices from "./components/Prices";
 import Link from "next/link";
-import monkey from "../../public/images/monkey.jpg"
-
-
+import monkey from "../../public/images/monkey.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-12 mx-4 lg:mx-16">
+    <div className="flex flex-col mx-4 lg:mx-16">
       {/* Part 1 */}
-      <div className="md:flex md:justify-center md:items-center">
-        <div className="p-4">
-          <h1>
-            Websites für Heilberufe: <br /> Damit Du schnell für deine Kunden
-            online bist!
+      <div className="lg:flex items-center gap-4">
+        <div className="p-4 lg:w-2/3">
+          <h1 className="text-2xl py-4">
+            Webseiten mit Herz und Verstand - für Menschen, die mit Menschen
+            arbeiten.
           </h1>
           <p className="mb-4">
-            Ich erstelle Webseiten für Coaches, Psychotherapeuten, Apotheker,
-            Heilpraktiker und weitere Gesundheitsberufe ab 999 Euro pro Website.
+            Was haben Psycholog:innen, Therapeut:innen, Heilpraktiker:innen,
+            Ernährungsberater:innen, Fitnesstrainer:innen, Physiotherapeut:innen
+            und Yogalehrer:innen gemeinsam? Sie alle arbeiten mit Menschen. Und
+            genau für solche Menschen erstelle ich Webseiten. Warum? Damit sie
+            sich auf das konzentrieren können, was wirklich wichtig ist.
           </p>
-          <p>Website-Projekt unverbindlich anfragen:</p>
-          <p>
-            <a href="mailto:noekel@namaste-websites.de" className="underline">
+          <p className="text-center md:text-left">
+            Unverbindlich anfragen unter:
+          </p>
+          <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start sm:gap-4">
+            <a
+              href="mailto:noekel@namaste-websites.de"
+              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-60 lg:min-w-62 max-w-80
+               hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
+            >
               noekel@namaste-websites.de
             </a>
-            <span> oder </span>
-            <Link href="/Kontakt" className="underline">
+            <p className="text-cente">oder</p>
+            <Link
+              href="/Kontakt"
+              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-60 max-w-80
+              hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
+            >
               Kontakt
             </Link>
-          </p>
+          </div>
         </div>
         <div className="m-4">
-          <Image src={monkey} alt="Logo" width={600} height={600} className="mx-auto" />
+          <Image
+            src={monkey}
+            alt="Logo"
+            width={600}
+            height={600}
+            className="mx-auto"
+          />
         </div>
       </div>
       {/* Part 2 */}
-      <div className="md:flex md:justify-around">
-        <div className="p-4">
-          <h1>Ich bin studierter Psychologe und kenne die Fachgebiete</h1>
+      <div className="lg:flex gap-4">
+        <div className="p-4 lg:w-1/2">
+          <h1>Mehr Zeit für das wirklich Wichtige haben</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            soluta voluptate porro suscipit repellat tenetur laboriosam, sit
-            doloribus quisquam omnis? Ex tempore animi earum optio quidem nobis
-            ad iure quos?
+            Du möchtest Deine Onlinepräsenz aufbauen, aber du hast weder Zeit
+            noch Lust dich mit einer Toolbox herumzuschlagen? Dann bist du bei
+            mir genau an der richtigen Adresse! Ich erstelle Dir schnell und
+            unkompliziert Deine Webseite. Und ich lasse den Stift nicht fallen,
+            sobald die Webseite das Licht der Welt erblickt, sondern helfe dir
+            auch dabei, sie auf dem neusten Stand zu halten. So kannst du deine
+            Zeit voll und ganz deinen Klient:innen widmen. Den Rest erledige
+            ich!
           </p>
         </div>
-        <div className="p-4">
-          <h1>Ich erstelle Deine individuelle Website zu fairen Preisen.</h1>
+        <div className="p-4 lg:w-1/2">
+          <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            facilis, rerum cupiditate quia beatae quas sed magni ex a, numquam,
-            consectetur asperiores animi quis ad nobis nostrum fugiat natus.
-            Recusandae?
+            Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
+            Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
+            dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
+            stehen muss.
           </p>
         </div>
       </div>
       {/* Part 3 */}
-      <div className="md:flex md:justify-center md:items-center">
-        <div className="m-4">
-          <Image src={monkey} alt="Logo" width={600} height={600} className="mx-auto" />
-        </div>
-        <div className="p-4">
-          <p className="pb-4">
-            Ich arbeite selbst als Psychologe und weiß, wie es ist, Patienten
-            und Klienten zu haben. Ich kann mich also perfekt in Deine Welt
-            hineinversetzen und Dir eine nutzerfreundliche Website bauen.
-          </p>
-          <p>Unverbindlich anfragen:</p>
-          <p>
-            <a href="mailto:noekel@namaste-websites.de" className="underline">
-              noekel@namaste-websites.de
-            </a>
-            oder
-            <Link href="/Kontakt" className="underline">
-              Kontakt
-            </Link>
-          </p>
-        </div>
-      </div>
-      {/* Part 4 */}
       {/* Trennbild */}
-      <div className="m-4">
+      <div className="m-4 my-8">
         <p>Trennbild</p>
         <Image
           src={monkey}
@@ -91,34 +87,24 @@ export default function Home() {
           className="mx-auto"
         />
       </div>
-      {/* Part 5 */}
       <div className="lg:flex lg:justify-around">
         <div className="p-4">
-          <h1>
-            Warum ich mich auf die Website-Erstellung für Heilberufe wie
-            Therapeuten, Ärzte und Ernährungsberater spezialisiert habe?
-          </h1>
+          <h1>Ich höre zu und verstehe, was du brauchst</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            minima saepe nesciunt voluptatibus omnis vitae asperiores corporis
-            consequuntur quae laborum unde iure corrupti culpa, dolor ratione
-            provident minus dolore excepturi?
+            Ich kann mich in Deine Welt hineinversetzen und weiß, wie
+            individuell unterschiedlichste Behandlungsansätze sein können. Und
+            genauso individuell sind auch Klient:innen und deren Bedürfnisse.
+            Ich verkaufe dir deshalb kein “One-Size-Fits-All-”Angebot, sondern
+            erstelle Dir eine individuelle Webseite, basierend auf Deinen
+            Bedürfnissen. Und dafür mache ich das, was ich als Psychologe am
+            allerbesten kann: Zuhören, um zu verstehen, was du brauchst.
           </p>
         </div>
-        <div className="m-4">
-          <Image
-            src={monkey}
-            alt="Abbildung therapeutischer Arbeit"
-            width={600}
-            height={600}
-            className="mx-auto"
-          />
-        </div>
       </div>
-      {/* Part 6 */}
-      <div className="flex flex-col items-center">
-        <h1 className="text-center">Für diese Berufsgruppe arbeite ich:</h1>
-        <div className=" sm:p-4 sm:flex sm:justify-center">
+      {/* Part 4 */}
+      <div className="flex flex-col my-4">
+        <h1 className="text-center">Für diese Berufsgruppen arbeite ich:</h1>
+        <div className=" sm:p-4 sm:flex sm:justify-center text-xl mx-4">
           <ul className="flex flex-col gap-2 mt-4 sm:mx-16 sm:gap-4">
             <li className="flex items-start">
               <span className="checkmark"></span>
@@ -146,7 +132,7 @@ export default function Home() {
             </li>
           </ul>
           <ul className="flex flex-col gap-2 mt-2 sm:mx-16 sm:mt-4 sm:gap-4">
-          <li className="flex items-start">
+            <li className="flex items-start">
               <span className="checkmark"></span>
               <span className="ml-2">Ernährungsberater*innen</span>
             </li>
@@ -173,12 +159,33 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      {/* Part 7 */}
-      <div className="md:flex md:justify-around md:items-center">
-      <div className="m-4">
+      {/* Part 5 */}
+      <div className="lg:flex gap-4 my-4">
+        <div className="p-4 lg:w-1/2">
+          <h1>Ich baue deine Seite so, dass du gefunden wirst</h1>
+          <p>
+            Die SEO-Optimierung von Webseiten ist entscheidend, um in
+            Suchmaschinen wie Google besser gefunden zu werden. Eine gut
+            optimierte Webseite erscheint höher in den Suchergebnissen, was mehr
+            potenzielle Interessent:innen anzieht. Auch das denke ich von Anfang
+            an mit!
+          </p>
+        </div>
+        <div className="p-4 lg:w-1/2">
+          <h1>Faire Preise und keine Überraschungen</h1>
+          <p>
+            Für jede Webseite erstelle ich ein individuelles Angebot. Damit
+            stelle ich sicher, dass alle Kosten transparent vorliegen und es
+            keine Überraschungen gibt.
+          </p>
+        </div>
+      </div>
+      {/* Part 6 */}
+      <div className="md:flex md:justify-center md:items-center my-4">
+        <div className="m-4">
           <Image
             src={monkey}
-            alt="Abbildung therapeutischer Arbeit"
+            alt="Logo"
             width={600}
             height={600}
             className="mx-auto"
@@ -190,8 +197,27 @@ export default function Home() {
             <li>Ich kenne deine Zielgruppe</li>
             <li>Deine Seite ist SEO-optimiert</li>
             <li>Ich setze das um, was zu Dir passt</li>
+            <li>Meine Preise sind fair und von Anfang an transparent</li>
           </ol>
         </div>
+      </div>
+      <div className="p-4">
+        <h1>Jetzt unverbindlich anfragen</h1>
+        <p className="pb-4">
+          Das klingt spannend für dich? Sprich mich gerne an und lass uns ein
+          unverbindliches Gespräch führen. Schreibe mir gerne eine Email unter{" "}
+          <a
+            href="mailto:noekel@namaste-websites.de"
+            className="border-b-2 border-namasteGreen"
+          >
+            noekel@namaste-websites.de
+          </a>{" "}
+          oder fülle das{" "}
+          <Link href="/Kontakt" className="border-b-2 border-namasteGreen">
+            Kontakt
+          </Link>
+          -Formular aus, sodass ich mich bei dir melden kann.
+        </p>
       </div>
     </div>
   );

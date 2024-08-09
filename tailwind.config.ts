@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         namasteGreen: '#71b572',
-        namasteMint: '#4fa6a8',
+        namasteDarkgreen: '#257879',
         namasteRed: '#e85757'
       },
       backgroundImage: {

@@ -64,13 +64,7 @@ export default function Navbar() {
               <Link href="/" className={`${pathname === '/' ? 'active' : ''}`}>Home</Link>
             </li>
             <li>
-              <Link href="/Website-Erstellung" className={`${pathname === '/Website-Erstellung' ? 'active' : ''}`}>Website-Erstellung</Link>
-            </li>
-            <li>
               <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
-            </li>
-            <li>
-              <Link href="/Referenzen" className={`${pathname === '/Referenzen' ? 'active' : ''}`}>Referenzen</Link>
             </li>
             <li>
               <Link href="/UeberMich" className={`${pathname === '/UeberMich' ? 'active' : ''}`}>Über mich</Link>
@@ -94,15 +88,9 @@ export default function Navbar() {
               <p className="text-namasteGreen font-gagalin text-4xl font-thin">Namaste-Websites</p>
             </Link>
           </div>
-          <ul className="flex gap-4 lg:text-lg navbar">
-            <li className="">
-              <Link href="/Website-Erstellung" className={`${pathname === '/Website-Erstellung' ? 'active' : ''}`}>Website-Erstellung</Link>
-            </li>
+          <ul className="flex gap-4 lg:text-2xl navbar">
             <li>
               <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
-            </li>
-            <li>
-              <Link href="/Referenzen" className={`${pathname === '/Referenzen' ? 'active' : ''}`}>Referenzen</Link>
             </li>
             <li>
               <Link href="/Tipps" className={`${pathname === '/Tipps' ? 'active' : ''}`}>Tipps</Link>
