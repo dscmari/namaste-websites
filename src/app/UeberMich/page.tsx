@@ -15,7 +15,7 @@ export default function UeberMich() {
         </p>
         <p className="py-2">
           Seit mehreren Jahren beschäftige ich mich außerdem mit Informatk und
-          habe ich mich schließlich nebenberuflich als Web-Entwickler
+          habe mich schließlich nebenberuflich als Web-Entwickler
           weitergebildet. Nun unterstütze ich Menschen in Gesundheitsberufen
           dabei ihre Onlinepräsenz aufzubauen.
         </p>

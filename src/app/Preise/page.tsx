@@ -3,8 +3,8 @@ import Prices from "../components/Prices";
 
 export default function Preise() {
   return (
-    <div>
-      <div className="p-4">
+    <div className="">
+      <div className="p-4 mx-4">
         <h1>Ich erstelle Deine individuelle Website zu fairen Preisen.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facilis,

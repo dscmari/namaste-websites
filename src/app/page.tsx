@@ -108,37 +108,37 @@ export default function Home() {
           <ul className="flex flex-col gap-2 mt-4 sm:mx-16 sm:gap-4">
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Heilpraktiker*innen</span>
+              <span className="ml-2">Heilpraktiker:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Ärzt*innen</span>
+              <span className="ml-2">Ärzt:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Physiotherapeut*innen</span>
+              <span className="ml-2">Physiotherapeut:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Psyotherapeut*innen</span>
+              <span className="ml-2">Psychotherapeut:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Kunsttherapeut*innen</span>
+              <span className="ml-2">Kunsttherapeut:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Osteopath*innen</span>
+              <span className="ml-2">Osteopath:innen</span>
             </li>
           </ul>
           <ul className="flex flex-col gap-2 mt-2 sm:mx-16 sm:mt-4 sm:gap-4">
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Ernährungsberater*innen</span>
+              <span className="ml-2">Ernährungsberater:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Psycholog*innen</span>
+              <span className="ml-2">Psycholog:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
@@ -146,11 +146,11 @@ export default function Home() {
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Masseur*innen</span>
+              <span className="ml-2">Masseur:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
-              <span className="ml-2">Fitnesstrainer*innen</span>
+              <span className="ml-2">Fitnesstrainer:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
