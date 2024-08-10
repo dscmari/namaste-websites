@@ -93,9 +93,6 @@ export default function Navbar() {
               <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
             </li>
             <li>
-              <Link href="/Tipps" className={`${pathname === '/Tipps' ? 'active' : ''}`}>Tipps</Link>
-            </li>
-            <li>
               <Link href="/UeberMich" className={`${pathname === '/UeberMich' ? 'active' : ''}`}>Über mich</Link>
             </li>
             <li>
