@@ -14,7 +14,7 @@ function Prices() {
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Schnell online sein&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full">
+          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full">
             <p>
               Du hast eine neue Praxis oder bist dabei, Dich gerade selbständig
               zu machen? Dann ist die Web-Präsenz wichtig, damit Du gefunden
@@ -65,8 +65,8 @@ function Prices() {
                 </span>
               </li>
             </ul>
-            <div className="p-4 mt-12 mb-4 lg:m-4  border-2 border-black rounded font-semibold mx-auto w-2/3 md:w-1/2 lg:max-w-40 text-center">
-              <p>9999 Euro</p>
+            <div className="p-4 mt-12 lg:mt-4 mx-auto mb-4 border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center">
+              <p>999 Euro</p>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ function Prices() {
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Die digitale Visitenkarte&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
+          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
             <p>
               Du möchtest neben der Startseite auch ein paar Unterseiten haben,
               um Deine Leistungen und Deine Person vorzustellen? Dann eignet
@@ -125,7 +125,7 @@ function Prices() {
                 </span>
               </li>
             </ul>
-            <div className="p-4 mt-12 mb-4 lg:m-4 border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:max-w-40  mx-auto text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
+            <div className="p-4 mt-12 lg:mt-4 mb-4 mx-auto border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
               <p>1999 Euro</p>
             </div>
           </div>
@@ -136,7 +136,7 @@ function Prices() {
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Digitaler Spitzenreiter&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-cadedBlue rounded lg:h-full relative">
+          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
             <p>
               Du willst nicht nur &quot;online&quot; sein, sondern auch digital gut
               gefunden werden und Deinen potentiellen Patienten informativen
@@ -177,7 +177,7 @@ function Prices() {
                 </span>
               </li>
             </ul>
-            <div className="p-4 mt-12 mb-4 lg:m-4 border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:max-w-40 mx-auto text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
+            <div className="p-4 mt-12 lg:mt-4 mb-4 mx-auto border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
               <div className="flex flex-col items-center xl:flex-row xl:justify-center">
                 <p>5999 Euro</p>
               </div>
