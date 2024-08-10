@@ -25,18 +25,18 @@ export default function Home() {
           <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start sm:gap-4">
             <a
               href="mailto:noekel@namaste-websites.de"
-              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-60 lg:min-w-62 max-w-80
+              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
                hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
             >
-              noekel@namaste-websites.de
+              E-Mail
             </a>
             <p className="text-cente">oder</p>
             <Link
               href="/Kontakt"
-              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-60 max-w-80
+              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
               hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
             >
-              Kontakt
+              Kontakt-Formular
             </Link>
           </div>
         </div>
