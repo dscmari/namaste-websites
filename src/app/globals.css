@@ -100,38 +100,24 @@ h1{
   font-size: 1.3rem;
 }
 
-
-
-/* CSS */
-.button-13 {
-  background-color: #fff;
-  border: 1px solid #d5d9d9;
-  border-radius: 8px;
-  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-  box-sizing: border-box;
-  color: #0f1111;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Amazon Ember",sans-serif;
-  font-size: 13px;
-  line-height: 29px;
-  padding: 0 10px 0 11px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  width: 100px;
+/* privacy */
+.privacy h1 {
+  font-size: 1.6rem;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
-.button-13:hover {
-  background-color: #f7fafa;
+.privacy h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.3rem 0 0.3rem 0;
 }
 
-.button-13:focus {
-  border-color: #008296;
-  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-  outline: 0;
+.privacy h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.2rem 0 0.2rem 0;
+}
+
+.privacy p{
+  padding: 0.2rem 0 0.2rem 0;
 }
