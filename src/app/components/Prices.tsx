@@ -7,14 +7,14 @@ function Prices() {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <h1 className="p-4 text-center ">Angebote</h1>
-      <div className="flex flex-col lg:flex-row lg:mx-16">
+      <div className="grid lg:grid-cols-3 gap-8">
         {/* Paket 1 */}
-        <div className="flex flex-col items-center my-4 lg:w-1/3 lg:items-around">
+        <div className="flex flex-col items-center lg:items-around">
           <h2 className="font-semibold w-full text-center">Paket 1</h2>
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Schnell online sein&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full">
+          <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full">
             <p>
               Du hast eine neue Praxis oder bist dabei, Dich gerade selbständig
               zu machen? Dann ist die Web-Präsenz wichtig, damit Du gefunden
@@ -71,12 +71,12 @@ function Prices() {
           </div>
         </div>
         {/* Paket 2 */}
-        <div className="flex flex-col items-center my-4 lg:w-1/3">
+        <div className="flex flex-col items-center">
           <h2 className="font-semibold w-full text-center">Paket 2</h2>
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Die digitale Visitenkarte&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
+          <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
             <p>
               Du möchtest neben der Startseite auch ein paar Unterseiten haben,
               um Deine Leistungen und Deine Person vorzustellen? Dann eignet
@@ -131,12 +131,12 @@ function Prices() {
           </div>
         </div>
         {/* Paket 3 */}
-        <div className="flex flex-col items-center my-4 w-full lg:w-1/3">
+        <div className="flex flex-col items-center">
           <h2 className="font-semibold w-full text-center">Paket 2</h2>
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Digitaler Spitzenreiter&quot;
           </p>
-          <div className="mx-8 lg:mx-4 p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
+          <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
             <p>
               Du willst nicht nur &quot;online&quot; sein, sondern auch digital gut
               gefunden werden und Deinen potentiellen Patienten informativen
