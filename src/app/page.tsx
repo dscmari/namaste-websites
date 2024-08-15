@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-center md:text-left">
             Unverbindlich anfragen unter:
           </p>
-          <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start sm:gap-4">
+          <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
             <a
               href="mailto:noekel@namaste-websites.de"
               className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
