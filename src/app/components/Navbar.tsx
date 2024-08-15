@@ -4,11 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../../public/images//logo/logo.svg";
 import { usePathname } from 'next/navigation'
+import useScrollPosition from "../hooks/useScrollPosition";
 
 export default function Navbar() {
   const pathname = usePathname()
   const [burgermenu, setBurgermenu] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const scrollPositon = useScrollPosition()
 
   const toggleMenu = () => {
     toggleX();
@@ -40,7 +42,7 @@ export default function Navbar() {
 
   if (burgermenu) {
     return (
-      <div className="p-4 border-b-4">
+      <div className="p-4 py-2 border-b-4 sticky top-0 bg-white">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 items-center sm:pl-12">
             <Link href="/">
@@ -78,8 +80,8 @@ export default function Navbar() {
     );
   } else {
     return (
-      <div>
-        <div className="border-b-4 flex justify-around py-12 items-center">
+        <div className={`border-b-4 flex justify-around items-center bg-white sticky top-0 z-10 transition-all duration-300 
+           ${scrollPositon > 0 ? 'py-0' : 'py-6'}`}>
           <div className="flex gap-4 items-center">
             <Link href="/">
               <Image src={logo} alt="Logo" width={100} height={100} />
@@ -100,7 +102,6 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
     );
   }
 }
