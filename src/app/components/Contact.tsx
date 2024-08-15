@@ -70,7 +70,7 @@ export default function Contact() {
                         </label>
                     </div>
                     <div className='text-center'>
-                        <button className='hover:shadow-form rounded-md bg-cadedBlue py-3 px-8 m-6 font-semibold text-white outline-none'>
+                        <button className='hover:shadow-form rounded-md bg-namasteGreen py-3 px-8 m-6 font-semibold text-white outline-none'>
                             Senden
                         </button>
                     </div>
