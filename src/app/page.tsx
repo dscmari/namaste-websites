@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import monkey from "../../public/images/monkey.jpg";
+import backpack from "../../public/images/backpack.jpg"
+import path from "../../public/images/path.jpg"
 
 export default function Home() {
   return (
@@ -78,13 +80,12 @@ export default function Home() {
       {/* Part 3 */}
       {/* Trennbild */}
       <div className="m-4 my-8">
-        <p>Trennbild</p>
         <Image
-          src={monkey}
+          src={path}
           alt=""
-          width={800}
-          height={200}
-          className="mx-auto"
+          width={1000}
+          height={100}
+          className="mx-auto shadow-md shadow-black"
         />
       </div>
       <div className="lg:flex lg:justify-around">
