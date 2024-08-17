@@ -6,7 +6,7 @@ function Prices() {
   // so shorter boxes are able to use absolute positioning
   return (
     <div className="max-w-screen-2xl mx-auto">
-      <h1 className="p-4 text-center ">Angebote</h1>
+      <h1 className="p-4 text-center mb-4"><span className="border-b-4 border-namasteGreen">Das biete ich dir an</span></h1>
       <div className="grid lg:grid-cols-3 gap-8">
         {/* Paket 1 */}
         <div className="flex flex-col items-center lg:items-around">
@@ -53,9 +53,15 @@ function Prices() {
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  In der Regel erstellen wir die Website innerhalb weniger
+                  Wir erstellen die Website innerhalb weniger
                   Werktage (sobald wir Bilder, Logo und Texte von Dir erhalten
                   haben)
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="checkmark"></span>
+                <span className="ml-2">
+                 Website-Hosting in Deutschland
                 </span>
               </li>
               <li className="hidden lg:block flex items-start opacity-0 p-0 m-0">
@@ -119,9 +125,15 @@ function Prices() {
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  In der Regel erstellen wir die Website innerhalb weniger
+                  Wir erstellen die Website innerhalb weniger
                   Werktage (sobald wir Bilder, Logo und Texte von Dir erhalten
                   haben)
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="checkmark"></span>
+                <span className="ml-2">
+                 Website-Hosting in Deutschland
                 </span>
               </li>
             </ul>
@@ -132,7 +144,7 @@ function Prices() {
         </div>
         {/* Paket 3 */}
         <div className="flex flex-col items-center">
-          <h2 className="font-semibold w-full text-center">Paket 2</h2>
+          <h2 className="font-semibold w-full text-center">Paket 3</h2>
           <p className="font-semibold mb-4 w-full text-center">
             &quot;Digitaler Spitzenreiter&quot;
           </p>
@@ -149,7 +161,7 @@ function Prices() {
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  Konzeption und Erstellung Deiner Website
+                  Konzeption, Erstellung und Wartung Deiner Website
                 </span>
               </li>
               <li className="flex items-start">
@@ -173,7 +185,13 @@ function Prices() {
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  Drei Korrektur-Schleifen - damit alles passt
+                  Vier Korrektur-Schleifen - für ein perfektes Ergebnis
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="checkmark"></span>
+                <span className="ml-2">
+                 Website-Hosting in Deutschland
                 </span>
               </li>
             </ul>
