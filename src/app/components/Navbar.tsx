@@ -42,7 +42,7 @@ export default function Navbar() {
 
   if (burgermenu) {
     return (
-      <div className="p-4 py-2 border-b-4 sticky top-0 bg-white">
+      <div className="p-4 py-2 border-b-4 sticky top-0 bg-white z-10">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 items-center sm:pl-12">
             <Link href="/">
