@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  line-height: 170%;
+}
+.price-box-text {
+  line-height: 150%;
+}
+
 /* Navbar */
 .burgermenu {
     width: 60px;

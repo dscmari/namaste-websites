@@ -15,7 +15,7 @@ function Prices() {
             &quot;Schnell online sein&quot;
           </p>
           <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full">
-            <p>
+            <p className="price-box-text">
               Du hast eine neue Praxis oder bist dabei, Dich gerade selbständig
               zu machen? Dann ist die Web-Präsenz wichtig, damit Du gefunden
               werden kannst. Das &quot;Schnell-online-sein&quot;-Paket ist
@@ -83,7 +83,7 @@ function Prices() {
             &quot;Die digitale Visitenkarte&quot;
           </p>
           <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
-            <p>
+            <p className="price-box-text">
               Du möchtest neben der Startseite auch ein paar Unterseiten haben,
               um Deine Leistungen und Deine Person vorzustellen? Dann eignet
               sich &quot;Das kleine Paket&quot; ideal für Dich.
@@ -149,7 +149,7 @@ function Prices() {
             &quot;Digitaler Spitzenreiter&quot;
           </p>
           <div className="p-4 border-2 border-namasteDarkgreen rounded lg:h-full relative">
-            <p>
+            <p className="price-box-text">
               Du willst nicht nur &quot;online&quot; sein, sondern auch digital gut
               gefunden werden und Deinen potentiellen Patienten informativen
               Content bieten? Mit diesem Paket trittst Du in Deiner Branche als

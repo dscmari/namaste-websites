@@ -129,6 +129,10 @@ export default function Home() {
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
+              <span className="ml-2">Yogalehrer:innen</span>
+            </li>
+            <li className="flex items-start">
+              <span className="checkmark"></span>
               <span className="ml-2">Osteopath:innen</span>
             </li>
           </ul>
@@ -148,6 +152,10 @@ export default function Home() {
             <li className="flex items-start">
               <span className="checkmark"></span>
               <span className="ml-2">Masseur:innen</span>
+            </li>
+            <li className="flex items-start">
+              <span className="checkmark"></span>
+              <span className="ml-2">Ergotherapeut:innen</span>
             </li>
             <li className="flex items-start">
               <span className="checkmark"></span>
