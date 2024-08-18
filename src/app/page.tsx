@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import monkey from "../../public/images/monkey.jpg";
-import backpack from "../../public/images/backpack.jpg"
-import path from "../../public/images/path.jpg"
+import backpack from "../../public/images/backpack.jpg";
+import path from "../../public/images/path.jpg";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
             <a
               href="mailto:noekel@namaste-websites.de"
-              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
+              className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
                hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
             >
               E-Mail
@@ -35,10 +35,10 @@ export default function Home() {
             <p className="text-cente">oder</p>
             <Link
               href="/Kontakt"
-              className="block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
+              className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
               hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
             >
-              Kontakt-Formular
+              Kontakt
             </Link>
           </div>
         </div>
@@ -215,9 +215,9 @@ export default function Home() {
           </a>{" "}
           oder fülle das{" "}
           <Link href="/Kontakt" className="border-b-2 border-namasteGreen">
-            Kontakt
-          </Link>
-          -Formular aus, sodass ich mich bei dir melden kann.
+            Kontakt-Formular
+          </Link>{" "}
+          aus, sodass ich mich bei dir melden kann.
         </p>
       </div>
     </div>

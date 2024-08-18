@@ -10,10 +10,10 @@ export default function Preise() {
         <p>
           Die Kosten für den Aufbau deiner Webseite hängen vom Umfang und deinen
           individuellen Anforderungen ab. Hinzu kommen Themen, wie die
-          Instandhaltung der Webseite oder wie häufig Änderungen und Updates vorgenommen werden sollen. Mir ist es wichtig, alle
-          eventuellen Kosten transparent aufzuschlüsseln, sodass du
-          Planungssicherheit hast und dir überlegen kannst, was für deine
-          Bedürfnisse am besten passt.
+          Instandhaltung der Webseite oder wie häufig Änderungen und Updates
+          vorgenommen werden sollen. Mir ist es wichtig, alle eventuellen Kosten
+          transparent aufzuschlüsseln, sodass du Planungssicherheit hast und dir
+          überlegen kannst, was für deine Bedürfnisse am besten passt.
         </p>
       </div>
       <Prices />
@@ -35,9 +35,9 @@ export default function Preise() {
           </a>{" "}
           oder fülle das{" "}
           <Link href="/Kontakt" className="border-b-2 border-namasteGreen">
-            Kontakt
-          </Link>
-          -Formular aus, sodass ich mich bei dir melden kann.
+            Kontakt-Formular
+          </Link>{" "}
+          aus, sodass ich mich bei dir melden kann.
         </p>
       </div>
     </div>
