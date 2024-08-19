@@ -22,7 +22,6 @@ export default function Contact() {
 
     return (
         <div className='p-4 max-w-3xl md:mx-auto'>
-            <p className='py-6'>Introtext zu Kontaktformular</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='mb-5'>
                     <label htmlFor='name' className='mb-3 block'>Name</label>

@@ -8,7 +8,7 @@ export default function UeberMich() {
       <div className="m-8 lg:w-1/2 lg:ml-16 ">
         <h1>Über mich</h1>
         <p className="py-2">
-          Namaste! - Ich bin Marian Nökel, 33 Jahre alt und arbeite
+          Namaste! - Ich bin Marian Nökel, MSc. Psychologie, 33 Jahre alt und arbeite
           hauptberuflich als Psychologe. Aus diesem Grund kann ich mich gut in
           die Arbeit mit Menschen hineinversetzen und weiß, wie es ist, mit
           Patient:innen und Klient:innen zu arbeiten.
