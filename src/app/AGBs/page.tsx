@@ -174,6 +174,7 @@ export default function AGBs() {
       <p className="ml-4 lg:ml-12">
         Mündliche Nebenabreden zu diesem Vertrag bestehen nicht.
       </p>
+      <p className="my-4">Die allgemeinen Geschäftsbedingungen zum Download im PDF-Format findetst du <a className="underline text-blue-500" href="./noekel_AGBs.pdf" target="_blank">hier</a>.</p>
     </div>
   );
 }
