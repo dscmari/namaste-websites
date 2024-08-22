@@ -22,8 +22,7 @@ function Prices() {
               ideal, wenn Du wenig Budget hast und schnell eine gute Website
               benötigst.
             </p>
-            <p className="mt-2">Das Paket beinhaltet:</p>
-            <ul className="offer-list">
+            <ul className="offer-list mt-2">
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
@@ -88,8 +87,7 @@ function Prices() {
               um Deine Leistungen und Deine Person vorzustellen? Dann eignet
               sich &quot;Das kleine Paket&quot; ideal für Dich.
             </p>
-            <p className="mt-2">Das Paket beinhaltet:</p>
-            <ul className="offer-list">
+            <ul className="offer-list mt-2">
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
@@ -156,8 +154,7 @@ function Prices() {
               digitaler Spitzenreiter auf und wirst zu vielen Suchbegriffen auch
               gefunden.
             </p>
-            <p className="mt-2">Das Paket beinhaltet:</p>
-            <ul className="offer-list">
+            <ul className="offer-list mt-2">
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
@@ -186,6 +183,12 @@ function Prices() {
                 <span className="checkmark"></span>
                 <span className="ml-2">
                   Vier Korrektur-Schleifen - für ein perfektes Ergebnis
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="checkmark"></span>
+                <span className="ml-2">
+                  Optionale Einbindung von Features
                 </span>
               </li>
               <li className="flex items-start">

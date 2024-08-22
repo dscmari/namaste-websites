@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import monkey from "../../../public/images/monkey.jpg";
+import portrait_0 from "/public/images/portraits/portrait_0.webp";
+
 
 export default function UeberMich() {
   return (
@@ -34,11 +35,11 @@ export default function UeberMich() {
       </div>
       <div className="m-4 lg:mr-16">
         <Image
-          src={monkey}
+          src={portrait_0}
           alt="Logo"
-          width={600}
-          height={600}
-          className="mx-auto"
+          width={400}
+          height={200}
+          className="mx-auto shadow-md shadow-black"
         />
       </div>
     </div>

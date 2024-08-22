@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import monkey from "../../public/images/monkey.jpg";
-import backpack from "../../public/images/backpack.jpg";
+import portrait_2 from "../../public/images/portraits/portrait_2.webp";
+import computer_6 from "../../public/images/portraits/computer_6.webp";
 import path from "../../public/images/path.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col mx-4 lg:mx-16">
+    <div className="flex flex-col mx-4 lg:mx-16 gap-6 lg:mt-6">
       {/* Part 1 */}
       <div className="lg:flex items-center gap-4">
         <div className="p-4 lg:w-2/3">
@@ -42,13 +42,22 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="m-4">
+        <div className="m-4 md:flex items-center gap-4">
+          <div className="hidden md:block lg:hidden p-4 lg:w-1/2">
+            <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
+            <p>
+              Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
+              Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
+              dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
+              stehen muss.
+            </p>
+          </div>
           <Image
-            src={monkey}
+            src={portrait_2}
             alt="Logo"
-            width={600}
+            width={300}
             height={600}
-            className="mx-auto"
+            className="mx-auto shadow-md shadow-black"
           />
         </div>
       </div>
@@ -67,19 +76,21 @@ export default function Home() {
             ich!
           </p>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="md:hidden lg:block p-4 lg:w-1/2">
           <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
           <p>
             Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
             Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
             dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
-            stehen muss.
+            stehen muss. Um deinen Klient:innen und dir Zeit zu sparen, sollte
+            beispielsweise schnell ersichtlich werden, inwiefern deine Leistung über die
+            Krankenkasse abgerechnet werden kann.
           </p>
         </div>
       </div>
       {/* Part 3 */}
       {/* Trennbild */}
-      <div className="m-4 my-8">
+      <div className="m-4">
         <Image
           src={path}
           alt=""
@@ -103,8 +114,8 @@ export default function Home() {
         </div>
       </div>
       {/* Part 4 */}
-      <div className="flex flex-col my-4">
-        <h1 className="text-center">Für diese Berufsgruppen arbeite ich:</h1>
+      <div className="py-4 flex flex-col m-4 bg-namasteDarkgreen bg-opacity-40">
+        <h1 className="text-center">Für diese Berufsgruppen arbeite ich</h1>
         <div className=" sm:p-4 sm:flex sm:justify-center text-xl mx-4">
           <ul className="flex flex-col gap-2 mt-4 sm:mx-16 sm:gap-4">
             <li className="flex items-start">
@@ -193,11 +204,11 @@ export default function Home() {
       <div className="md:flex md:justify-center md:items-center my-4">
         <div className="m-4">
           <Image
-            src={monkey}
+            src={computer_6}
             alt="Logo"
             width={600}
             height={600}
-            className="mx-auto"
+            className="mx-auto shadow-md shadow-black"
           />
         </div>
         <div className="p-4 flex flex-col">
