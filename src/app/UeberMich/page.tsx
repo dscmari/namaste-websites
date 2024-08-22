@@ -5,7 +5,7 @@ import portrait_0 from "/public/images/portraits/portrait_0.webp";
 
 export default function UeberMich() {
   return (
-    <div className="flex flex-col lg:flex-row lg:items-center gap-4 2xl:w-3/4 lg:mx-auto xl:max-w-3/4">
+    <div className="flex flex-col lg:flex-row mx-4 lg:items-center gap-4 2xl:w-3/4 xl:max-w-3/4">
       <div className="m-8 lg:w-1/2 lg:ml-16 ">
         <h1>Über mich</h1>
         <p className="py-2">

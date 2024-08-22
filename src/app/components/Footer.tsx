@@ -14,7 +14,7 @@ export default function Footer() {
             Hinweis zu § 36 VSBG: Wir nehmen an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle nicht teil und sind dazu auch nicht verpflichtet.
             </li>
         </ul>
-        <ul className='mt-4 md:mt-0 p-4 flex flex-col items-center gap-4 underline'>
+        <ul className='mt-4 md:mt-0 p-4 flex flex-col items-center md:items-start gap-4 underline'>
             <li><Link href="/Datenschutz">Datenschutzerklärung</Link></li>
             <li><Link href="/AGBs">Allgemeine Geschäftsbedingungen</Link></li>
         </ul>
