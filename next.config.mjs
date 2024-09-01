@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/namaste-websites", // basePath sets the path for github pages
-  output: "export", // <=== enables static exports
+  //basePath: "/namaste-websites", // basePath sets the path for github pages
+  //output: "export", // <=== enables static exports
   reactStrictMode: true,
   /**
    * Disable server-based image optimization. Next.js does not support
