@@ -24,6 +24,10 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { email, number, name, message } = emailSchema.parse(body);
 
+    console.log("MY_EMAIL:", process.env.MY_EMAIL);
+    console.log("MY_PASSWORD:", process.env.MY_PASSWORD ? '********' : 'Not Set');
+
+
     const transport = nodemailer.createTransport({
       host: "smtps.udag.de",
       port: 587, // You can also use 465 if you prefer SSL/TLS
