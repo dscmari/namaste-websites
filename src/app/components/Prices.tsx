@@ -5,7 +5,7 @@ function Prices() {
   // and shorter boxes orient to that boxs' height as it defines the containers height
   // so shorter boxes are able to use absolute positioning
   return (
-    <div className="max-w-screen-2xl mx-auto p-4">
+    <div className="max-w-screen-2xl mx-auto">
       <h1 className="p-4 text-center mb-4"><span className="border-b-4 border-namasteGreen">Das biete ich dir an</span></h1>
       <div className="grid lg:grid-cols-3 gap-8">
         {/* Paket 1 */}

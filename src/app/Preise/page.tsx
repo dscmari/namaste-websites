@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Preise() {
   return (
     <div className="m-8 lg:mx-16">
-      <div className="p-4 ">
+      <div className="pb-4 lg:pb-8">
         <h1>Ich erstelle Deine individuelle Website zu fairen Preisen.</h1>
         <p>
           Die Kosten für den Aufbau deiner Webseite hängen vom Umfang und deinen
