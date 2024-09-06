@@ -6,7 +6,7 @@ import path from "../../public/images/path.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col mx-4 lg:mx-16 gap-6 lg:mt-6">
+    <div className="flex flex-col gap-6 lg:mx-4">
       {/* Part 1 */}
       <div className="lg:flex items-center gap-4">
         <div className="p-4 lg:w-2/3">

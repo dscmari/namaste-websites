@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en" className={`${roboto.className} ${gagalin.variable}`}>
       <body>
         <Navbar />
-        <div className="max-w-7xl xl:mx-auto">
+        <div className="m-4 lg:m-8 max-w-7xl xl:mx-auto">
           {children}
         </div>
         <Footer />

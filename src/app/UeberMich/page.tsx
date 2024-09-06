@@ -5,23 +5,23 @@ import Link from "next/link";
 
 export default function UeberMich() {
   return (
-    <div className="mx-4">
-      <div className="flex flex-col lg:flex-row gap-4 p-4">
+    <div className="mx-4 lg:mx-8">
+      <div className="flex flex-col lg:flex-row gap-4">
         <div className="lg:w-1/2 py-4">
-          <h1 className="text-2xl py-4">Über mich</h1>
-          <p className="py-2">
+          <h1 className="text-2xl lg:py-4">Über mich</h1>
+          <p className="lg:py-2">
             Namaste! - Ich bin Marian Nökel, MSc. Psychologie, 33 Jahre alt und
             arbeite hauptberuflich als Psychologe. Aus diesem Grund kann ich
             mich gut in die Arbeit mit Menschen hineinversetzen und weiß, wie es
             ist, mit Patient:innen und Klient:innen zu arbeiten.
           </p>
-          <p className="py-2">
+          <p className="lg:py-2">
             Seit mehreren Jahren beschäftige ich mich außerdem mit Informatk und
             habe mich schließlich nebenberuflich als Web-Entwickler
             weitergebildet. Nun unterstütze ich Menschen in Gesundheitsberufen
             dabei ihre Onlinepräsenz aufzubauen.
           </p>
-          <p className="py-2">
+          <p className="lg:py-2">
             Ich bin der festen Überzeugung, dass jede Webseite individuell ist
             und dass man als guter Web-Entwickler seinen Kund:innen zuhören
             muss, um zu verstehen, was sie wirklich benötigen. Und wenn ich
@@ -29,7 +29,7 @@ export default function UeberMich() {
             also ins Gespräch kommen und herausfinden, wie Deine optimale
             Webseite aussehen muss.
           </p>
-          <p className="py-2">Ich freue mich darauf, dich kennenzulernen!</p>
+          <p className="lg:py-2">Ich freue mich darauf, dich kennenzulernen!</p>
           <p>
             Bis bald, <br />
             Marian
