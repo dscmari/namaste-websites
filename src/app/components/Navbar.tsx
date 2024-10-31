@@ -5,12 +5,14 @@ import Image from "next/image";
 import logo from "../../../public/images//logo/logo.svg";
 import { usePathname } from 'next/navigation'
 import useScrollPosition from "../hooks/useScrollPosition";
+import DropdownMenu from "./DropdownMenu";
 
 export default function Navbar() {
   const pathname = usePathname()
   const [burgermenu, setBurgermenu] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const scrollPositon = useScrollPosition()
+
 
   const toggleMenu = () => {
     toggleX();
@@ -40,6 +42,7 @@ export default function Navbar() {
     }
   };
 
+
   if (burgermenu) {
     return (
       <div className="p-4 py-2 border-b-4 sticky top-0 bg-white z-10">
@@ -64,6 +67,9 @@ export default function Navbar() {
           <ul className="flex flex-col items-end gap-4 mr-6 text-xl py-4 navbar">
             <li>
               <Link href="/" className={`${pathname === '/' ? 'active' : ''}`}>Home</Link>
+            </li>
+            <li>
+              <Link href="/Angebote" className={`${pathname === '/Angebote' ? 'active' : ''}`}>Angebote</Link>
             </li>
             <li>
               <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
@@ -91,6 +97,9 @@ export default function Navbar() {
             </Link>
           </div>
           <ul className="flex gap-4 lg:text-2xl navbar">
+            <li>
+              <DropdownMenu/>
+            </li>
             <li>
               <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
             </li>
