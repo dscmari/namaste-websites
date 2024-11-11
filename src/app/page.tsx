@@ -14,7 +14,7 @@ export default function Home() {
             Webseiten mit Herz und Verstand - für Menschen, die mit Menschen
             arbeiten.
           </h1>
-          <p className="mb-4">
+          <p>
             Was haben Psycholog:innen, Therapeut:innen, Heilpraktiker:innen,
             Ernährungsberater:innen, Fitnesstrainer:innen, Physiotherapeut:innen
             und Yogalehrer:innen gemeinsam? Sie alle arbeiten mit Menschen. Und
@@ -65,7 +65,7 @@ export default function Home() {
       <div className="lg:flex gap-4">
         <div className="p-4 lg:w-1/2">
           <h1>Mehr Zeit für das wirklich Wichtige haben</h1>
-          <p>
+          <p className="mb-0">
             Du möchtest Deine Onlinepräsenz aufbauen, aber du hast weder Zeit
             noch Lust dich mit einer Toolbox herumzuschlagen? Dann bist du bei
             mir genau an der richtigen Adresse! Ich erstelle Dir schnell und
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         <div className="md:hidden lg:block p-4 lg:w-1/2">
           <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
-          <p>
+          <p className="mb-0">
             Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
             Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
             dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
@@ -102,7 +102,7 @@ export default function Home() {
       <div className="lg:flex lg:justify-around">
         <div className="p-4">
           <h1>Ich höre zu und verstehe, was du brauchst</h1>
-          <p>
+          <p className="mb-0">
             Ich kann mich in Deine Welt hineinversetzen und weiß, wie
             individuell unterschiedlichste Behandlungsansätze sein können. Und
             genauso individuell sind auch Klient:innen und deren Bedürfnisse.
@@ -183,7 +183,7 @@ export default function Home() {
       <div className="lg:flex gap-4 my-4">
         <div className="p-4 lg:w-1/2">
           <h1>Ich baue deine Seite so, dass du gefunden wirst</h1>
-          <p>
+          <p className="mb-0">
             Die SEO-Optimierung von Webseiten ist entscheidend, um in
             Suchmaschinen wie Google besser gefunden zu werden. Eine gut
             optimierte Webseite erscheint höher in den Suchergebnissen, was mehr
@@ -193,7 +193,7 @@ export default function Home() {
         </div>
         <div className="p-4 lg:w-1/2">
           <h1>Faire Preise und keine Überraschungen</h1>
-          <p>
+          <p className="mb-0">
             Für jede Webseite erstelle ich ein individuelles Angebot. Damit
             stelle ich sicher, dass alle Kosten transparent vorliegen und es
             keine Überraschungen gibt.

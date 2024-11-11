@@ -4,6 +4,7 @@
 
 p {
   line-height: 170%;
+  margin-bottom: 1rem;
 }
 .price-box-text {
   line-height: 150%;
@@ -105,6 +106,11 @@ p {
 h1{
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 /* privacy */
