@@ -1,9 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
-import zweig from "../../../public/images/zweig.jpg";
 import search from "../../../public/images/heilpraktiker/search.jpg";
-import wellness from "../../../public/images/heilpraktiker/wellness.jpg";
 import beach from "../../../public/images/heilpraktiker/beach.jpg";
 import stones from "../../../public/images/heilpraktiker/stones.jpg";
 import Link from "next/link";
@@ -44,7 +42,6 @@ export default function Heilpraktiker() {
             className="mx-auto shadow-md shadow-black"
           />
         </div>
-
         <p className="mb-4 md:hidden">
           Mittlerweile ist der Onlineauftritt als virtuelle Visitenkarte genauso
           wichtig geworden wie die persönliche Weiterempfehlung. Denn obwohl die
@@ -53,7 +50,6 @@ export default function Heilpraktiker() {
           Klient:innen, die lieber zuerst das Internet um Hilfe fragen.{" "}
         </p>
       </div>
-
       <h2>Die wichtigsten Informationen auf einen Blick</h2>
       <p>
         Als wichtigste Informationsquelle löst das Internet die persönliche
@@ -167,7 +163,6 @@ export default function Heilpraktiker() {
           />
         </div>
       </div>
-
       <div className="">
         <div className="p-4">
           <p className="text-center">Unverbindlich anfragen unter:</p>
