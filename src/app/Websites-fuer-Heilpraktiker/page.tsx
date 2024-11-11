@@ -2,6 +2,10 @@ import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
 import zweig from "../../../public/images/zweig.jpg";
+import search from "../../../public/images/heilpraktiker/search.jpg";
+import wellness from "../../../public/images/heilpraktiker/wellness.jpg";
+import beach from "../../../public/images/heilpraktiker/beach.jpg";
+import stones from "../../../public/images/heilpraktiker/stones.jpg";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -14,19 +18,42 @@ export default function Heilpraktiker() {
   return (
     <div className="mx-4">
       <h1 className="text-2xl py-4">Webseiten für Heilpraktiker:innen</h1>
-      <p className="mb-4">
-        Das Internet ist heutzutage die erste Anlaufstelle für Menschen, die
-        eine Krankheit haben und Hilfe suchen. Von der ersten Symptomsuche über
-        Suchmaschinen wie Google bis hin zur Recherche nach Anlaufstellen und
-        Behandlungsmöglichkeiten.
-      </p>
-      <p className="mb-4">
-        Mittlerweile ist der Onlineauftritt als virtuelle Visitenkarte genauso
-        wichtig geworden wie die persönliche Weiterempfehlung. Denn obwohl die
-        meisten Heilpraktiker:innen vorwiegend auf Mund-zu-Mund-Propaganda
-        setzen, entgeht ihnen zunehmend eine wachsende Zahl an potenziellen
-        Klient:innen, die lieber zuerst das Internet um Hilfe fragen.{" "}
-      </p>
+      <div className="md:flex">
+        <div className="md:w-1/2">
+          <p className="mb-4">
+            Das Internet ist heutzutage die erste Anlaufstelle für Menschen, die
+            eine Krankheit haben und Hilfe suchen. Von der ersten Symptomsuche
+            über Suchmaschinen wie Google bis hin zur Recherche nach
+            Anlaufstellen und Behandlungsmöglichkeiten.
+          </p>
+          <p className="hidden md:block mb-4">
+            Mittlerweile ist der Onlineauftritt als virtuelle Visitenkarte
+            genauso wichtig geworden wie die persönliche Weiterempfehlung. Denn
+            obwohl die meisten Heilpraktiker:innen vorwiegend auf
+            Mund-zu-Mund-Propaganda setzen, entgeht ihnen zunehmend eine
+            wachsende Zahl an potenziellen Klient:innen, die lieber zuerst das
+            Internet um Hilfe fragen.{" "}
+          </p>
+        </div>
+        <div className="mb-4 md:w-1/2 md:flex items-center">
+          <Image
+            src={search}
+            alt="Sucheleiste"
+            width={350}
+            height={700}
+            className="mx-auto shadow-md shadow-black"
+          />
+        </div>
+
+        <p className="mb-4 md:hidden">
+          Mittlerweile ist der Onlineauftritt als virtuelle Visitenkarte genauso
+          wichtig geworden wie die persönliche Weiterempfehlung. Denn obwohl die
+          meisten Heilpraktiker:innen vorwiegend auf Mund-zu-Mund-Propaganda
+          setzen, entgeht ihnen zunehmend eine wachsende Zahl an potenziellen
+          Klient:innen, die lieber zuerst das Internet um Hilfe fragen.{" "}
+        </p>
+      </div>
+
       <h2>Die wichtigsten Informationen auf einen Blick</h2>
       <p>
         Als wichtigste Informationsquelle löst das Internet die persönliche
@@ -65,6 +92,14 @@ export default function Heilpraktiker() {
         erspart wiederum Zeit, die für die Rahmenbedingungen der Behandlung
         geklärt werden müssen.
       </p>
+      <div className="my-8">
+        <Image
+          src={beach}
+          alt="Strand"
+          width={2000}
+          className="mx-auto shadow-md shadow-black"
+        />
+      </div>
       <h2>Zeit für das wirklich Wichtige</h2>
       <p>
         Der Aufbau und die Pflege einer professionellen und erfolgreichen
@@ -94,28 +129,48 @@ export default function Heilpraktiker() {
         über die Krankenkasse abgerechnet werden können und wie die Behandlung
         abläuft.
       </p>
-      <h2>Ich baue deine Internetseite so, wie du sie brauchst </h2>
-      <p>
-        Ich verkaufe dir kein “One-Size-Fits-All-”Angebot, sondern erstelle Dir
-        eine individuelle Webseite, basierend auf Deinen Bedürfnissen. Und dafür
-        mache ich das, was ich als Psychologe am allerbesten kann: Zuhören.
-        Verstehen, was du brauchst.
-      </p>
-      <p>
-        Zudem optimiere ich deinen Internetauftritt für Suchmaschinen, sodass du
-        gut gefunden wirst.{" "}
-      </p>
-      <p>
-        Vorab erhältst du für alle meine Leistungen ein transparentes Angebot
-        ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
-        Gespräch kommen!
-      </p>
-      <div className="lg:flex items-center gap-4">
-        <div className="p-4 lg:w-2/3">
-          {/* Kontaktteil */}
-          <p className="text-center md:text-left">
-            Unverbindlich anfragen unter:
+      <div className="my-8 md:hidden">
+        <Image
+          src={stones}
+          alt="Stapel Steine"
+          width={350}
+          height={700}
+          className="mx-auto shadow-md shadow-black"
+        />
+      </div>
+      <div className="md:flex">
+        <div className="md:w-1/2">
+          <h2>Ich baue deine Internetseite so, wie du sie brauchst </h2>
+          <p>
+            Ich verkaufe dir kein “One-Size-Fits-All-”Angebot, sondern erstelle
+            Dir eine individuelle Webseite, basierend auf Deinen Bedürfnissen.
+            Und dafür mache ich das, was ich als Psychologe am allerbesten kann:
+            Zuhören. Verstehen, was du brauchst.
           </p>
+          <p>
+            Zudem optimiere ich deinen Internetauftritt für Suchmaschinen,
+            sodass du gut gefunden wirst.{" "}
+          </p>
+          <p>
+            Vorab erhältst du für alle meine Leistungen ein transparentes
+            Angebot ohne versteckte Kosten. Bist du neugierig geworden? Lass uns
+            gerne ins Gespräch kommen!
+          </p>
+        </div>
+        <div className="my-8 hidden md:block md:w-1/2 md:flex items-center">
+          <Image
+            src={stones}
+            alt="Stapel Steine"
+            width={350}
+            height={700}
+            className="mx-auto shadow-md shadow-black"
+          />
+        </div>
+      </div>
+
+      <div className="">
+        <div className="p-4">
+          <p className="text-center">Unverbindlich anfragen unter:</p>
           <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
             <a
               href="mailto:noekel@namaste-websites.de"
@@ -133,24 +188,6 @@ export default function Heilpraktiker() {
               Kontakt
             </Link>
           </div>
-        </div>
-        <div className="m-4 md:flex items-center gap-4">
-          <div className="hidden md:block lg:hidden p-4 lg:w-1/2">
-            <h2>Nutzerfreundlich für Patient:innen und Klient:innen</h2>
-            <p>
-              Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
-              Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
-              dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
-              stehen muss.
-            </p>
-          </div>
-          <Image
-            src={zweig}
-            alt="Grüner Zweig"
-            width={300}
-            height={600}
-            className="mx-auto shadow-md shadow-black"
-          />
         </div>
       </div>
     </div>
