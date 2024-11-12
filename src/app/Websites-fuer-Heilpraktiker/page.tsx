@@ -33,7 +33,7 @@ export default function Heilpraktiker() {
             Internet um Hilfe fragen.{" "}
           </p>
         </div>
-        <div className="mb-4 md:w-1/2 md:flex items-center">
+        <div className="my-8 md:w-1/2 md:flex items-center">
           <Image
             src={search}
             alt="Sucheleiste"
