@@ -30,7 +30,14 @@ export default function DropdownMenu() {
   return (
     <div className="relative" ref={ref}>
       <button onClick={toggleSubmenu} className="md:flex">
-        Angebote <Image src={arrow} alt="Pfeil nach unten" width={30} height={30} className="hidden md:block mt-1" />
+        Angebote{" "}
+        <Image
+          src={arrow}
+          alt="Pfeil nach unten"
+          width={30}
+          height={30}
+          className="hidden md:block mt-1"
+        />
       </button>
       <ul
         className={`absolute left-0 mt-2 bg-white shadow-lg rounded-md w-max text-lg 
@@ -43,17 +50,17 @@ export default function DropdownMenu() {
       >
         <Link
           onClick={toggleSubmenu}
-          href="/Websites-fuer-Heilpraktiker"
-          className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
-        >
-          Heilpraktiker:innen
-        </Link>
-        <Link
-          onClick={toggleSubmenu}
           href="/Websites-fuer-Psychotherapeuten"
           className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
         >
           Psychotherapeut:innen
+        </Link>
+        <Link
+          onClick={toggleSubmenu}
+          href="/Websites-fuer-Heilpraktiker"
+          className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
+        >
+          Heilpraktiker:innen
         </Link>
         <Link
           onClick={toggleSubmenu}

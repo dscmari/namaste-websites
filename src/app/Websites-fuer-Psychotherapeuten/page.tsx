@@ -95,6 +95,12 @@ export default function Psychotherapeuten() {
         Psychotherapeut:innen aus offensichtlichem Grund meist ruhige Formen und
         Farben, die Vertrauen und Seriosität vermitteln.
       </p>
+      <Image
+        src={sky}
+        height={100}
+        alt="Blauer Himmel mit einzelner Wolke"
+        className="mx-auto shadow-md shadow-black h-1/2 w-auto my-8"
+      />
       <p>
         Ebenso ist schon bei der Webseiten-Erstellung darauf zu achten, dass die
         Webseite möglichst barrierearm aufgebaut ist, künftige Patienten:innen
@@ -105,15 +111,7 @@ export default function Psychotherapeuten() {
         fügen sich Webseiten für Psychotherapeut:innen auf fast schon ganz
         natürliche Weise in Deinen Praxis- und Patientenalltag ein - allen voran
         dann, wenn Du und Deine Praxis dadurch weitere Sichtbarkeit erhalten.
-      </p>
-      {/* 
-     <Image
-        src={sky}
-        height={100}
-        alt="Blauer Himmel mit einzelner Wolke"
-        className="mx-auto shadow-md shadow-black h-1/2 w-auto my-8"
-      />
-       */}
+      </p> 
       <p>
         Webseiten ür Psychotherapeut:innen helfen praktisch nicht nur bei der
         Patientenakquise und können Dich bei Deiner täglichen Arbeit nachhaltig
