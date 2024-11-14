@@ -136,7 +136,7 @@ export default function Psychotherapeuten() {
         Dich arbeitet, Patienten:innen informiert und Dich bei der Akquise neuer
         Patienten:innen unterstützt.
       </p>
-      <div className="py-4 md:my-12 flex flex-col m-4 bg-namasteDarkgreen bg-opacity-40">
+      <div className="py-4 md:my-12 flex flex-col bg-namasteDarkgreen bg-opacity-40">
         <h1 className="text-center">
           Diese wichtigen Informationen sollte Deine Webseite enthalten:
         </h1>
