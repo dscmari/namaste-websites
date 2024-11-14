@@ -174,7 +174,7 @@ export default function Heilpraktiker() {
             >
               E-Mail
             </a>
-            <p className="text-cente">oder</p>
+            <p className="text-center m-0">oder</p>
             <Link
               href="/Kontakt"
               className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72

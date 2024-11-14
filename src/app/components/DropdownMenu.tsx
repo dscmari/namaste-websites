@@ -46,23 +46,21 @@ export default function DropdownMenu() {
           href="/Websites-fuer-Heilpraktiker"
           className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
         >
-          Websites für Heilpraktiker*innen
+          Heilpraktiker*innen
         </Link>
-
+        <Link
+          onClick={toggleSubmenu}
+          href="/Websites-fuer-Psychotherapeuten"
+          className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
+        >
+          Psychotherapeut*innen
+        </Link>
         <Link
           onClick={toggleSubmenu}
           href="/#"
           className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
         >
-          Option 2
-        </Link>
-
-        <Link
-          onClick={toggleSubmenu}
-          href="/#"
-          className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
-        >
-          Option 3
+          Ernährungsberater*innen
         </Link>
       </ul>
     </div>
