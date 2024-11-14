@@ -55,6 +55,7 @@ export default function Psychotherapeuten() {
           />
         </div>
       </div>
+      <h2>Zentrale Anlaufstelle für Informationen</h2>
       <p className="mb-4 md:hidden">
         Als Psychologe weiß ich, wie wenig Zeit im Praxisalltag typischerweise
         für die Akquise neuer Patienten:innen bleibt, wie viel Zeit
@@ -101,6 +102,7 @@ export default function Psychotherapeuten() {
         alt="Blauer Himmel mit einzelner Wolke"
         className="mx-auto shadow-md shadow-black h-1/2 w-auto my-8"
       />
+      
       <p>
         Ebenso ist schon bei der Webseiten-Erstellung darauf zu achten, dass die
         Webseite möglichst barrierearm aufgebaut ist, künftige Patienten:innen
@@ -112,6 +114,7 @@ export default function Psychotherapeuten() {
         natürliche Weise in Deinen Praxis- und Patientenalltag ein - allen voran
         dann, wenn Du und Deine Praxis dadurch weitere Sichtbarkeit erhalten.
       </p> 
+      <h2>Digitale Visitenkarte</h2>
       <p>
         Webseiten ür Psychotherapeut:innen helfen praktisch nicht nur bei der
         Patientenakquise und können Dich bei Deiner täglichen Arbeit nachhaltig
@@ -207,6 +210,7 @@ export default function Psychotherapeuten() {
         Webdesign an die kleineren Displays der mobilen Endgeräte flexibel
         anpasst.
       </p>
+      <h2>Zeit für das Wichtige</h2>
       <p>
         Es ist völlig nachvollziehbar, dass Du als praktizierender
         Psychotherapeut oder praktizierende Psychotherapeutin neben dem
