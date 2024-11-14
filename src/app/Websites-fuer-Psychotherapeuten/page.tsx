@@ -46,7 +46,7 @@ export default function Psychotherapeuten() {
             Ansprechpartner oder die richtige Ansprechpartnerin bist.
           </p>
         </div>
-        <div className="my-8 md:mb-8 md:w-1/2 md:flex items-center">
+        <div className="my-8 md:mt-0 md:w-1/2 md:flex items-center">
           <Image
             src={search}
             alt="Sucheleiste"
