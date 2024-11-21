@@ -64,7 +64,7 @@ export default function DropdownMenu() {
         </Link>
         <Link
           onClick={toggleSubmenu}
-          href="/#"
+          href="/Websites-fuer-Ernaehrungsberater"
           className="block p-4 hover:bg-namasteGreen hover:text-white hover:no-underline"
         >
           Ernährungsberater:innen

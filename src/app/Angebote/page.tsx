@@ -11,8 +11,8 @@ export default function Angebote() {
         <Link href="/Websites-fuer-Heilpraktiker" className="block px-4 py-24 text-white text-2xl bg-namasteDarkgreen ">
           Webseiten für Heilpraktiker:innen
         </Link>
-        <Link href="/#" className="block px-4 py-24 text-white text-2xl bg-namasteGreen ">
-          Webseiten für Option3
+        <Link href="/Websites-fuer-Ernaehrungsberater" className="block px-4 py-24 text-white text-2xl bg-namasteGreen ">
+          Webseiten für Ernährungsberater:innen
         </Link>
       </div>
     </div>
