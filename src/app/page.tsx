@@ -6,66 +6,51 @@ import path from "../../public/images/path.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-6 lg:mx-4">
+    <div className="flex flex-col gap-6 lg:gap-12">
       {/* Part 1 */}
-      <div className="lg:flex items-center gap-4">
-        <div className="p-4 lg:w-2/3">
-          <h1 className="text-2xl py-4">
-            Webseiten mit Herz und Verstand - für Menschen, die mit Menschen
-            arbeiten.
+      <div className="gap-4">
+        <div className="flex flex-col justify-center container-marian h-screen w-full text-[#FFFAEC] p-4 ">
+          <h1 className="text-center text-4xl md:text-5xl lg:text-7xl md:font-thin mt-4">
+            Websites mit Herz und Verstand
           </h1>
-          <p>
-            Was haben Psycholog:innen, Therapeut:innen, Heilpraktiker:innen,
-            Ernährungsberater:innen, Fitnesstrainer:innen, Physiotherapeut:innen
-            und Yogalehrer:innen gemeinsam? Sie alle arbeiten mit Menschen. Und
-            genau für solche Menschen erstelle ich Webseiten. Warum? Damit sie
-            sich auf das konzentrieren können, was wirklich wichtig ist.
-          </p>
-          <p className="text-center md:text-left">
-            Unverbindlich anfragen unter:
-          </p>
-          <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
-            <a
-              href="mailto:noekel@namaste-websites.de"
-              className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
-               hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
-            >
-              E-Mail
-            </a>
-            <p className="text-center m-0">oder</p>
-            <Link
-              href="/Kontakt"
-              className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
-              hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
-            >
-              Kontakt
-            </Link>
-          </div>
+          <h2 className="md:text-2xl mb-4 text-center ">
+            - für Menschen, die mit Menschen arbeiten.
+          </h2>
         </div>
-        <div className="m-4 md:flex items-center gap-4">
-          <div className="hidden md:block lg:hidden p-4 lg:w-1/2">
-            <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
-            <p>
-              Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
-              Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
-              dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
-              stehen muss.
-            </p>
-          </div>
-          <Image
-            src={portrait_2}
-            alt="Logo"
-            width={300}
-            height={600}
-            className="mx-auto shadow-md shadow-black"
-          />
+
+        <p className="p-4">
+          Was haben Psycholog:innen, Therapeut:innen, Heilpraktiker:innen,
+          Ernährungsberater:innen, Fitnesstrainer:innen, Physiotherapeut:innen
+          und Yogalehrer:innen gemeinsam? Sie alle arbeiten mit Menschen. Und
+          genau für solche Menschen erstelle ich Webseiten. Warum? Damit sie
+          sich auf das konzentrieren können, was wirklich wichtig ist.
+        </p>
+        <p className="text-center md:text-left mx-4">
+          Unverbindlich anfragen unter:
+        </p>
+        <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
+          <a
+            href="mailto:noekel@namaste-websites.de"
+            className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
+               hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
+          >
+            E-Mail
+          </a>
+          <p className="text-center m-0">oder</p>
+          <Link
+            href="/Kontakt"
+            className="text-xl block border-2 border-slate-300 shadow-md rounded p-4 lg:px-0 my-4 text-center min-w-52 max-w-72
+              hover:border-namasteGreen hover:bg-namasteGreen hover:text-white"
+          >
+            Kontakt
+          </Link>
         </div>
       </div>
-      {/* Part 2 */}
-      <div className="lg:flex gap-4">
-        <div className="p-4 lg:w-1/2">
+      {/* part 2 */}
+      <div className="mx-4 flex flex-col md:flex-row gap-4">
+      <div className="flex-1">
           <h1>Mehr Zeit für das wirklich Wichtige haben</h1>
-          <p className="mb-0">
+          <p className="">
             Du möchtest Deine Onlinepräsenz aufbauen, aber du hast weder Zeit
             noch Lust dich mit einer Toolbox herumzuschlagen? Dann bist du bei
             mir genau an der richtigen Adresse! Ich erstelle Dir schnell und
@@ -76,47 +61,23 @@ export default function Home() {
             ich!
           </p>
         </div>
-        <div className="md:hidden lg:block p-4 lg:w-1/2">
+        <div className="flex-1">
           <h1>Nutzerfreundlich für Patient:innen und Klient:innen</h1>
-          <p className="mb-0">
-            Ich arbeite selbst als Psychologe und weiß, wie es ist, mit
+          <p>
+            Ich bin selbst als Psychologe tätig und weiß, wie es ist, mit
             Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
             dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
-            stehen muss. Um deinen Klient:innen und dir Zeit zu sparen, sollte
-            beispielsweise schnell ersichtlich werden, inwiefern deine Leistung über die
-            Krankenkasse abgerechnet werden kann.
+            stehen muss.
           </p>
         </div>
+
       </div>
       {/* Part 3 */}
-      {/* Trennbild */}
-      <div className="m-4">
-        <Image
-          src={path}
-          alt=""
-          width={1000}
-          height={100}
-          className="mx-auto shadow-md shadow-black"
-        />
-      </div>
-      <div className="lg:flex lg:justify-around">
-        <div className="p-4">
-          <h1>Ich höre zu und verstehe, was du brauchst</h1>
-          <p className="mb-0">
-            Ich kann mich in Deine Welt hineinversetzen und weiß, wie
-            individuell unterschiedlichste Behandlungsansätze sein können. Und
-            genauso individuell sind auch Klient:innen und deren Bedürfnisse.
-            Ich verkaufe dir deshalb kein “One-Size-Fits-All-”Angebot, sondern
-            erstelle Dir eine individuelle Webseite, basierend auf Deinen
-            Bedürfnissen. Und dafür mache ich das, was ich als Psychologe am
-            allerbesten kann: Zuhören, um zu verstehen, was du brauchst.
-          </p>
-        </div>
-      </div>
-      {/* Part 4 */}
-      <div className="py-4 flex flex-col m-4 bg-namasteDarkgreen bg-opacity-40">
-        <h1 className="text-center">Für diese Berufsgruppen arbeite ich</h1>
-        <div className=" sm:p-4 sm:flex sm:justify-center text-xl mx-4">
+      <div className="py-4 flex flex-col bg-namasteDarkgreen bg-opacity-40">
+        <h1 className="text-center font-light">
+          Für diese Berufsgruppen arbeite ich
+        </h1>
+        <div className=" sm:p-4 sm:flex sm:justify-center text-xl mx-4 ml-12 sm:ml-0">
           <ul className="flex flex-col gap-2 mt-4 sm:mx-16 sm:gap-4">
             <li className="flex items-start">
               <span className="checkmark"></span>
@@ -213,12 +174,12 @@ export default function Home() {
         </div>
         <div className="p-4 flex flex-col">
           <h1>Das sind Deine Vorteile, wenn Du mit mir zusammenarbeitest</h1>
-          <ol className="list-decimal m-4 mb-0 flex flex-col gap-2">
+          <ul className="list-disc m-4 ml-6 mb-0 flex flex-col gap-2">
             <li>Ich kenne deine Zielgruppe</li>
             <li>Deine Seite ist SEO-optimiert</li>
             <li>Ich setze das um, was zu Dir passt</li>
             <li>Meine Preise sind fair und von Anfang an transparent</li>
-          </ol>
+          </ul>
         </div>
       </div>
       <div className="p-4">

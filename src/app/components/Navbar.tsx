@@ -3,16 +3,15 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../../public/images//logo/logo.svg";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
 import useScrollPosition from "../hooks/useScrollPosition";
 import DropdownMenu from "./DropdownMenu";
 
 export default function Navbar() {
-  const pathname = usePathname()
+  const pathname = usePathname();
   const [burgermenu, setBurgermenu] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
-  const scrollPositon = useScrollPosition()
-
+  const scrollPositon = useScrollPosition();
 
   const toggleMenu = () => {
     toggleX();
@@ -42,17 +41,16 @@ export default function Navbar() {
     }
   };
 
-
   if (burgermenu) {
     return (
       <div className="p-4 py-2 border-b-4 sticky top-0 bg-white z-10">
         <div className="flex justify-between items-center">
-          <div className="flex gap-4 items-center sm:pl-12">
+          <div className="flex gap-4 items-center justify-center sm:pl-12">
             <Link href="/">
               <Image src={logo} alt="Logo" width={80} height={80} />
             </Link>
             <Link href="/">
-              <p className="text-namasteGreen font-gagalin text-xl sm:text-4xl">
+              <p className="text-namasteGreen m-0 font-gagalin text-xl sm:text-4xl">
                 Namaste-Websites
               </p>
             </Link>
@@ -66,19 +64,41 @@ export default function Navbar() {
         <div className={showMenu ? "block" : "hidden"} onClick={toggleMenu}>
           <ul className="flex flex-col items-end gap-4 mr-6 text-xl py-4 navbar">
             <li>
-              <Link href="/" className={`${pathname === '/' ? 'active' : ''}`}>Home</Link>
+              <Link href="/" className={`${pathname === "/" ? "active" : ""}`}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/Angebote" className={`${pathname === '/Angebote' ? 'active' : ''}`}>Angebote</Link>
+              <Link
+                href="/Angebote"
+                className={`${pathname === "/Angebote" ? "active" : ""}`}
+              >
+                Angebote
+              </Link>
             </li>
             <li>
-              <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
+              <Link
+                href="/Preise"
+                className={`${pathname === "/Preise" ? "active" : ""}`}
+              >
+                Preise
+              </Link>
             </li>
             <li>
-              <Link href="/UeberMich" className={`${pathname === '/UeberMich' ? 'active' : ''}`}>Über mich</Link>
+              <Link
+                href="/UeberMich"
+                className={`${pathname === "/UeberMich" ? "active" : ""}`}
+              >
+                Über mich
+              </Link>
             </li>
             <li>
-              <Link href="/Kontakt" className={`${pathname === '/Kontakt' ? 'active' : ''}`}>Kontakt</Link>
+              <Link
+                href="/Kontakt"
+                className={`${pathname === "/Kontakt" ? "active" : ""}`}
+              >
+                Kontakt
+              </Link>
             </li>
           </ul>
         </div>
@@ -86,31 +106,50 @@ export default function Navbar() {
     );
   } else {
     return (
-        <div className={`border-b-4 flex justify-around items-center bg-white sticky top-0 z-10 transition-all duration-300 
-           ${scrollPositon > 0 ? 'py-0' : 'py-6'}`}>
-          <div className="flex gap-4 items-center">
-            <Link href="/">
-              <Image src={logo} alt="Logo" width={100} height={100} />
-            </Link>
-            <Link href="/">
-              <p className="text-namasteGreen font-gagalin text-4xl font-thin">Namaste-Websites</p>
-            </Link>
-          </div>
-          <ul className="flex gap-4 lg:text-2xl navbar">
-            <li>
-              <DropdownMenu/>
-            </li>
-            <li>
-              <Link href="/Preise" className={`${pathname === '/Preise' ? 'active' : ''}`}>Preise</Link>
-            </li>
-            <li>
-              <Link href="/UeberMich" className={`${pathname === '/UeberMich' ? 'active' : ''}`}>Über mich</Link>
-            </li>
-            <li>
-              <Link href="/Kontakt" className={`${pathname === '/Kontakt' ? 'active' : ''}`}>Kontakt</Link>
-            </li>
-          </ul>
+      <div
+        className={`border-b-4 flex justify-around items-center bg-white sticky top-0 z-10 transition-all duration-300 
+           ${scrollPositon > 0 ? "py-0" : "py-6"}`}
+      >
+        <div className="flex gap-4 items-center">
+          <Link href="/">
+            <Image src={logo} alt="Logo" width={100} height={100} />
+          </Link>
+          <Link href="/">
+            <p className="text-namasteGreen font-gagalin text-4xl font-thin">
+              Namaste-Websites
+            </p>
+          </Link>
         </div>
+        <ul className="flex gap-4 lg:text-2xl navbar">
+          <li>
+            <DropdownMenu />
+          </li>
+          <li>
+            <Link
+              href="/Preise"
+              className={`${pathname === "/Preise" ? "active" : ""}`}
+            >
+              Preise
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/UeberMich"
+              className={`${pathname === "/UeberMich" ? "active" : ""}`}
+            >
+              Über mich
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Kontakt"
+              className={`${pathname === "/Kontakt" ? "active" : ""}`}
+            >
+              Kontakt
+            </Link>
+          </li>
+        </ul>
+      </div>
     );
   }
 }

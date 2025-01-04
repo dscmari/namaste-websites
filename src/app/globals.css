@@ -134,3 +134,10 @@ h2{
 .privacy p{
   padding: 0.2rem 0 0.2rem 0;
 }
+
+.container-marian {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/portraits/portrait_2.webp');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: top; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}

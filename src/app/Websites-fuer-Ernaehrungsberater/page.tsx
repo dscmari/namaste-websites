@@ -1,39 +1,59 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import search from "../../../public/images/heilpraktiker/search.jpg";
 
 export default function Ernährungsberater() {
   return (
-    <div>
+    <div className="m-4">
       <h1>Webseiten für Ernährungsberater:innen</h1>
       <p>
         Laut dem Bundeszentrum für Ernährung (BZfE) zeichnet sich spätestens
         seit der Corona-Pandemie ein klarer Digitaltrend im Bereich der
-        ernährungspräventiven und ernährungstherapeutischen Beratung ab.
-      </p>
-      <p>
-        Laut dem Trendreport Ernährung, der vom BZfE in Kooperation mit
-        NUTRITION HUB, Deutschlands größtem Netzwerk für Ernährungsexpert:innen
+        ernährungspräventiven und ernährungstherapeutischen Beratung ab. Laut
+        dem Trendreport Ernährung, der vom BZfE in Kooperation mit NUTRITION
+        HUB, Deutschlands größtem Netzwerk für Ernährungsexpert:innen
         veröffentlicht wurde, beobachtet ein Drittel der befragten
         Ernährungsprofis seit 2022 eine massive Zunahme an digitalen Angeboten.
       </p>
+      <div className="my-8 md:mt-0 md:w-1/2 md:flex items-center lg:hidden">
+        <Image
+          src={search}
+          alt="Sucheleiste"
+          width={350}
+          className="mx-auto shadow-md shadow-black"
+        />
+      </div>
+      <div className="md:flex items-center">
+        <div className="md:w-1/2">
+          <h2>Ernährungsberatung: Zwischen Expertise und Influencer-Hype</h2>
+          <p className="mb-4">
+            So nutzen Fachleute immer häufiger Apps und digitale Plattformen, um
+            zum Beispiel Nährwertprofile zu erfassen oder das Erlernen eines
+            neuen Verhaltens ihrer Klient:innen zu unterstützen. Gleichzeitig
+            spriesen unzählige Coaching-Angebote rund um die Ernährung auf
+            Social-Media-Plattformen wie Instagram oder Tiktok aus dem Boden.
+            Denn Influencer:innen, die sich mit Sport, Food, oder
+            Gesundheitsthemen beschäftigen, haben das Geschäft gewittert und
+            erschließen zunehmend den Markt mit ihren vielfältigen Beratungs-
+            und Coaching-Formaten.
+          </p>
+        </div>
+        <div className="my-8 md:mt-0 md:w-1/2 hidden lg:block">
+          <Image
+            src={search}
+            alt="Sucheleiste"
+            width={350}
+            className="mx-auto shadow-md shadow-black"
+          />
+        </div>
+      </div>
       <p>
-        So nutzen Fachleute immer häufiger Apps und digitale Plattformen, um zum
-        Beispiel Nährwertprofile zu erfassen oder das Erlernen eines neuen
-        Verhaltens ihrer Klient:innen zu unterstützen.{" "}
-      </p>
-      <p>
-        Gleichzeitig spriesen unzählige Coaching-Angebote rund um die Ernährung
-        auf Social-Media-Plattformen wie Instagram oder Tiktok aus dem Boden.
-        Denn Influencer:innen, die sich mit Sport, Food, oder Gesundheitsthemen
-        beschäftigen, haben das Geschäft gewittert und erschließen zunehmend den
-        Markt mit ihren vielfältigen Beratungs- und Coaching-Formaten.
-      </p>
-      <p>
-        Der Nachteil: Nicht jeder dieser Anbieter hat eine zertifizierte
-        Ausbildung zum Ernährungsberater oder Ernährungstherapeuten
-        nachzuweisen, häufig zum Leidwesen der Klient:innen, die sich
-        professionelle Unterstützung wünschen.
-      </p>
+            Der Nachteil: Nicht jeder dieser Anbieter hat eine zertifizierte
+            Ausbildung zum Ernährungsberater oder Ernährungstherapeuten
+            nachzuweisen, häufig zum Leidwesen der Klient:innen, die sich
+            professionelle Unterstützung wünschen.
+          </p>
       <h2>
         Ein professioneller Internetauftritt als Qualitätsmerkmal für
         Ernährungsberater:innen
