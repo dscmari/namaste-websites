@@ -20,7 +20,9 @@ export default function Heilpraktiker() {
     <div className="lg:mx-8">
       <div className="md:flex mx-4 gap-4">
         <div className="flex-1 flex flex-col justify-center">
-          <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">Websites für Heilpraktiker:innen</h1>
+          <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">
+            Websites für Heilpraktiker:innen
+          </h1>
           <p className="mb-4">
             Das Internet ist heutzutage die erste Anlaufstelle für Menschen, die
             eine Krankheit haben und Hilfe suchen. Von der ersten Symptomsuche
@@ -37,10 +39,10 @@ export default function Heilpraktiker() {
         <div className="flex-1 flex flex-col justify-center lg:text-center">
           <h2 className="mb-4">Ein professineller Auftritt unterstützt</h2>
           <p>
-            Eine aufschlussreiche Webseite kann ein erster
-            Anlaufpunkt sein, um bereits die wichtigsten Fragen vorab zu klären.
-            Das erspart wiederum Zeit, die für die Rahmenbedingungen der
-            Behandlung geklärt werden müssen.
+            Eine aufschlussreiche Webseite kann ein erster Anlaufpunkt sein, um
+            bereits die wichtigsten Fragen vorab zu klären. Das erspart wiederum
+            Zeit, die für die Rahmenbedingungen der Behandlung geklärt werden
+            müssen.
           </p>
         </div>
         <div className="flex-1">
@@ -63,18 +65,20 @@ export default function Heilpraktiker() {
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  "Welche Behandlungsmethoden werden angeboten?"
+                  &quot;Welche Behandlungsmethoden werden angeboten?&quot;
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
-                  "Welche Kosten kommen auf mich zu?"
+                  &quot;Welche Kosten kommen auf mich zu?&quot;
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="checkmark"></span>
-                <span className="ml-2">"Wie sind die Öffnungszeiten?"</span>
+                <span className="ml-2">
+                  &quot;Wie sind die Öffnungszeiten?&quot;
+                </span>
               </li>
             </ul>
           </div>
