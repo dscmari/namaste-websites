@@ -33,7 +33,7 @@ export default function Contact() {
     <div className="p-4 max-w-3xl md:mx-auto">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mb-5">
-          <label htmlFor="name" className="mb-3 block">
+          <label htmlFor="name" className="mb-3 block md:text-xl">
             Name
           </label>
           <input
@@ -44,7 +44,7 @@ export default function Contact() {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="email" className="mb-3 block">
+          <label htmlFor="email" className="mb-3 block md:text-xl">
             Emailadresse
           </label>
           <input
@@ -55,7 +55,7 @@ export default function Contact() {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="number" className="mb-3 block">
+          <label htmlFor="number" className="mb-3 block md:text-xl">
             Telefonnummer (optional)
           </label>
           <input
@@ -66,7 +66,7 @@ export default function Contact() {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="message" className="mb-3 block">
+          <label htmlFor="message" className="mb-3 block md:text-xl">
             Nachricht
           </label>
           <textarea

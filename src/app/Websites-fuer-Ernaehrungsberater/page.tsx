@@ -14,7 +14,7 @@ export default function Ernährungsberater() {
           <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">
             Websites für Ernährungsberater:innen
           </h1>
-          <p className="mb-4 md:text-xl">
+          <p className="mb-4">
             Laut dem Bundeszentrum für Ernährung (BZfE) zeichnet ein klarer
             Digitaltrend im Bereich der ernährungspräventiven und
             ernährungstherapeutischen Beratung ab. Laut dem Trendreport
@@ -39,7 +39,7 @@ export default function Ernährungsberater() {
           <h2 className="md:text-3xl md:font-thin md:mb-4">
             Angebot für Ernährungsberater:innen
           </h2>
-          <p className="md:text-xl">
+          <p className="">
             Wenn du deine Onlinepräsenz aufbauen möchtest, aber weder Zeit noch
             Lust hast, dich mit einer Toolbox herumzuschlagen, dann bist du bei
             mir genau an der richtigen Adresse! Ich erstelle Dir schnell und
@@ -54,7 +54,7 @@ export default function Ernährungsberater() {
           <Image src={onlineResume} alt="Website Icon" className="" />
         </div>
       </div>
-      <p className="mx-4 md:text-xl">
+      <p className="mx-4">
         Vorab erhältst du für alle meine Leistungen ein transparentes Angebot
         ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
         Gespräch kommen!

@@ -5,9 +5,9 @@ function Prices() {
   // and shorter boxes orient to that boxs' height as it defines the containers height
   // so shorter boxes are able to use absolute positioning
   return (
-    <div className="max-w-screen-2xl mx-auto">
-      <h1 className="p-4 text-center mb-4"><span className="border-b-4 border-namasteGreen">Das biete ich dir an</span></h1>
-      <div className="grid lg:grid-cols-3 gap-8">
+    <div className="max-w-screen-2xl mx-auto md:mt-8">
+      <h1 className="text-center md:text-3xl md:font-thin mb-4 md:mb-8"><span className="border-b-4 border-namasteGreen">Das biete ich dir an</span></h1>
+      <div className="grid lg:grid-cols-3 gap-8 mx-4">
         {/* Paket 1 */}
         <div className="flex flex-col items-center lg:items-around">
           <h2 className="font-semibold w-full text-center">Paket 1</h2>
@@ -71,7 +71,7 @@ function Prices() {
               </li>
             </ul>
             <div className="p-4 mt-12 lg:mt-4 mx-auto mb-4 border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center">
-              <p>999 Euro</p>
+              <p className="m-0">999 Euro</p>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@ function Prices() {
               </li>
             </ul>
             <div className="p-4 mt-12 lg:mt-4 mb-4 mx-auto border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
-              <p>1999 Euro</p>
+              <p className="m-0">1999 Euro</p>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ function Prices() {
             </ul>
             <div className="p-4 mt-12 lg:mt-4 mb-4 mx-auto border-2 border-black rounded font-semibold w-2/3 md:w-1/2 lg:min-w-40 lg:max-w-44 text-center lg:absolute lg:left-1/2 lg:bottom-0 lg:transform lg:-translate-x-1/2 lg:mb-8">
               <div className="flex flex-col items-center xl:flex-row xl:justify-center">
-                <p>5999 Euro</p>
+                <p className="m-0">5999 Euro</p>
               </div>
             </div>
           </div>

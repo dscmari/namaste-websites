@@ -21,7 +21,7 @@ export default function Heilpraktiker() {
           <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">
             Websites für Heilpraktiker:innen
           </h1>
-          <p className="mb-4 md:text-xl">
+          <p className="mb-4">
             Das Internet ist heutzutage die erste Anlaufstelle für Menschen, die
             eine Krankheit haben und Hilfe suchen. Von der ersten Symptomsuche
             über Suchmaschinen wie Google bis hin zur Recherche nach
@@ -36,7 +36,7 @@ export default function Heilpraktiker() {
       <div className="flex flex-col lg:flex-row mx-4 my-16 lg:my-32">
         <div className="flex-1 flex flex-col justify-center lg:text-center">
           <h2 className="mb-4 md:text-3xl md:font-thin">Ein professineller Auftritt unterstützt</h2>
-          <p className="md:text-xl">
+          <p>
             Eine aufschlussreiche Webseite kann ein erster Anlaufpunkt sein, um
             bereits die wichtigsten Fragen vorab zu klären. Das erspart wiederum
             Zeit, die für die Rahmenbedingungen der Behandlung geklärt werden
@@ -50,7 +50,7 @@ export default function Heilpraktiker() {
       <div className="flex flex-col lg:gap-4 lg:flex-row  mx-4 my-16 lg:my-32">
         <div className="flex-1 flex flex-col justify-center">
           <h2 className="mb-4 md:text-3xl md:font-thin">Die wichtigsten Infos auf einen Blick</h2>
-          <p className="md:text-xl">
+          <p>
             Als wichtigste Informationsquelle löst das Internet die persönliche
             Weiterempfehlung ab - besonders, wenn es um Krankheiten geht. Denn
             die Hürde, auf Webseiten nach Hilfe zu suchen, ist deutlich
@@ -59,7 +59,7 @@ export default function Heilpraktiker() {
         </div>
         <div className="flex-1 flex flex-col lg:justify-center lg:border-l-4 lg:border-namasteGreen">
           <div className="sm:flex sm:justify-center text-xl lg:py-8">
-            <ul className="flex flex-col gap-2 mt-4 sm:gap-4 p-4 italic md:text-xl">
+            <ul className="flex flex-col gap-2 mt-4 sm:gap-4 p-4 italic">
               <li className="flex items-start">
                 <span className="checkmark"></span>
                 <span className="ml-2">
@@ -83,7 +83,7 @@ export default function Heilpraktiker() {
         </div>
       </div>
 
-      <p className="mx-4 md:text-xl">
+      <p className="mx-4">
         Vorab erhältst du für alle meine Leistungen ein transparentes Angebot
         ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
         Gespräch kommen!

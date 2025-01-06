@@ -21,7 +21,7 @@ export default function Psychotherapeuten() {
           <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">
             Websites für Psychotherapeut:innen
           </h1>
-          <p className="mb-4 md:text-xl">
+          <p className="mb-4 ">
             Für Patient:innen ist Deine Webseite häufig der erste
             Kontaktpunkt mit Deiner Praxis. Umso wichtiger ist es, dass
             Du Deinen künftigen Patient:innen mit einer professionellen
@@ -39,7 +39,7 @@ export default function Psychotherapeuten() {
       <div className="flex flex-col lg:flex-row lg:flex-row-reverse mx-4 my-16 lg:my-32">
         <div className="flex-1 flex flex-col justify-center lg:text-center">
           <h2 className="md:text-3xl md:font-thin lg:mb-4">Ein professineller Auftritt unterstützt</h2>
-          <p className="md:text-xl">
+          <p className="">
             Eine aufschlussreiche Webseite kann ein erster Anlaufpunkt sein, um
             bereits die wichtigsten Fragen vorab zu klären. Das erspart wiederum
             Zeit, die für die Rahmenbedingungen der Behandlung geklärt werden
@@ -98,7 +98,7 @@ export default function Psychotherapeuten() {
           </ul>
         </div>
       </div>
-      <p className="mx-4 md:text-xl">
+      <p className="mx-4 ">
         Vorab erhältst du für alle meine Leistungen ein transparentes Angebot
         ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
         Gespräch kommen!

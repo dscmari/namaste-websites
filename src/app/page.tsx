@@ -18,7 +18,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="mx-4 my-8 md:my-16">
-          <p className="md:text-xl">
+          <p className="">
             Was haben Psycholog:innen, Therapeut:innen, Heilpraktiker:innen,
             Ernährungsberater:innen, Fitnesstrainer:innen, Physiotherapeut:innen
             und Yogalehrer:innen gemeinsam? Sie alle arbeiten mit Menschen. Und
@@ -51,7 +51,7 @@ export default function Home() {
       <div className="mx-4 flex flex-col md:flex-row lg:gap-16">
         <div className="flex-1">
           <h1 className="md:text-3xl md:font-thin mb-4">Mehr Zeit für das wirklich Wichtige haben</h1>
-          <p className="md:text-xl">
+          <p className="">
             Du möchtest Deine Onlinepräsenz aufbauen, aber du hast weder Zeit
             noch Lust dich mit einer Toolbox herumzuschlagen? Dann bist du bei
             mir genau an der richtigen Adresse! Ich erstelle Dir schnell und
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
         <div className="flex-1">
           <h1 className="md:text-3xl md:font-thin mb-4">Nutzerfreundlich für Patient:innen und Klient:innen</h1>
-          <p className="md:text-xl">
+          <p className="">
             Ich bin selbst als Psychologe tätig und weiß, wie es ist, mit
             Patient:innen und Klient:innen zu arbeiten. Deshalb weiß ich auch,
             dass die Nutzerfreundlichkeit einer solchen Webseite im Zentrum
@@ -144,7 +144,7 @@ export default function Home() {
       <div className="lg:flex gap-4 my-4">
         <div className="p-4 lg:w-1/2">
           <h1 className="md:text-3xl md:font-thin mb-4">Ich baue deine Seite so, dass du gefunden wirst</h1>
-          <p className="md:text-xl">
+          <p className="">
             Die SEO-Optimierung von Webseiten ist entscheidend, um in
             Suchmaschinen wie Google besser gefunden zu werden. Eine gut
             optimierte Webseite erscheint höher in den Suchergebnissen, was mehr
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
         <div className="p-4 pb-0 lg:w-1/2">
           <h1 className="md:text-3xl md:font-thin mb-4">Faire Preise und keine Überraschungen</h1>
-          <p className="md:text-xl">
+          <p className="">
             Für jede Webseite erstelle ich ein individuelles Angebot. Damit
             stelle ich sicher, dass alle Kosten transparent vorliegen und es
             keine Überraschungen gibt.
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
         <div className="p-4 flex flex-col">
           <h1 className="md:text-3xl md:font-thin mb-4">Das sind Deine Vorteile, wenn Du mit mir zusammenarbeitest</h1>
-          <ul className="list-disc m-4 ml-6 mb-0 flex flex-col gap-2 md:text-xl">
+          <ul className="list-disc m-4 ml-6 mb-0 flex flex-col gap-2 ">
             <li>Ich kenne deine Zielgruppe</li>
             <li>Deine Seite ist SEO-optimiert</li>
             <li>Ich setze das um, was zu Dir passt</li>
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </div>
       <div className="p-4 mb-8 lg:mb-16">
-        <p className="md:text-xl">
+        <p className="">
           Das klingt spannend für dich? Sprich mich gerne an und lass uns ein
           unverbindliches Gespräch führen. Schreibe mir gerne eine Email unter{" "}
           <a

@@ -5,23 +5,23 @@ import Link from "next/link";
 
 export default function UeberMich() {
   return (
-    <div className="mx-4 lg:mx-8">
-      <div className="flex flex-col lg:flex-row gap-4">
+    <div className="lg:mx-8">
+      <div className="flex flex-col lg:flex-row gap-4 mx-4 mt-8 lg:my-16">
         <div className="lg:w-1/2 py-4">
-          <h1 className="text-2xl lg:py-4">Über mich</h1>
-          <p className="lg:py-2">
+          <h1 className="md:text-5xl xl:text-7xl py-4 md:font-thin">Über mich</h1>
+          <p>
             Namaste! - Ich bin Marian Nökel, MSc. Psychologie, 33 Jahre alt und
             arbeite hauptberuflich als Psychologe. Aus diesem Grund kann ich
             mich gut in die Arbeit mit Menschen hineinversetzen und weiß, wie es
             ist, mit Patient:innen und Klient:innen zu arbeiten.
           </p>
-          <p className="lg:py-2">
+          <p>
             Seit mehreren Jahren beschäftige ich mich außerdem mit Informatk und
             habe mich schließlich nebenberuflich als Web-Entwickler
             weitergebildet. Nun unterstütze ich Menschen in Gesundheitsberufen
             dabei ihre Onlinepräsenz aufzubauen.
           </p>
-          <p className="lg:py-2">
+          <p>
             Ich bin der festen Überzeugung, dass jede Webseite individuell ist
             und dass man als guter Web-Entwickler seinen Kund:innen zuhören
             muss, um zu verstehen, was sie wirklich benötigen. Und wenn ich
@@ -29,7 +29,7 @@ export default function UeberMich() {
             also ins Gespräch kommen und herausfinden, wie Deine optimale
             Webseite aussehen muss.
           </p>
-          <p className="lg:py-2">Ich freue mich darauf, dich kennenzulernen!</p>
+          <p>Ich freue mich darauf, dich kennenzulernen!</p>
           <p>
             Bis bald, <br />
             Marian
@@ -41,12 +41,12 @@ export default function UeberMich() {
             alt="Logo"
             width={400}
             height={200}
-            className="shadow-md shadow-black"
+            className=""
           />
         </div>
       </div>
-      <div className="p-4">
-        <h1>Jetzt unverbindlich anfragen</h1>
+      <div className="p-4 mb-8 lg:mb-16">
+        <h1 className="md:text-3xl font-thin mb-4">Jetzt unverbindlich anfragen</h1>
         <p className="pb-4">
           Das klingt spannend für dich? Sprich mich gerne an und lass uns ein
           unverbindliches Gespräch führen. Schreibe mir gerne eine Email unter{" "}

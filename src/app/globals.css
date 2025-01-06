@@ -6,6 +6,13 @@ p {
   line-height: 170%;
   margin-bottom: 1rem;
 }
+@media (min-width: 768px){
+  p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 .price-box-text {
   line-height: 150%;
 }
