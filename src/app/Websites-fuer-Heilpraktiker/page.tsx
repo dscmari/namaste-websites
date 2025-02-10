@@ -34,7 +34,7 @@ export default function Heilpraktiker() {
       </div>
       <Carousel text={text} profession="heilpraktiker"/>
       <div className="flex flex-col lg:flex-row mx-4 my-16 lg:my-32">
-        <div className="flex-1 flex flex-col justify-center lg:text-center">
+        <div className="flex-1 flex flex-col justify-center">
           <h2 className="mb-4 md:text-3xl md:font-thin">Ein professineller Auftritt unterstützt</h2>
           <p>
             Eine aufschlussreiche Webseite kann ein erster Anlaufpunkt sein, um
@@ -88,7 +88,7 @@ export default function Heilpraktiker() {
         ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
         Gespräch kommen!
       </p>
-      <div className="md:mb-12">
+      <div className="mb-8 lg:mb-32">
         <div className="p-4">
           <p className="text-center">Unverbindlich anfragen unter:</p>
           <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">

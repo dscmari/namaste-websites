@@ -34,8 +34,8 @@ export default function Ernährungsberater() {
         </div>
       </div>
       <Carousel text={text} profession="ernaehrungsberater" />
-      <div className="flex flex-col lg:flex-row mx-4 my-8 lg:my-32 gap-8 lg:gap-16">
-        <div className="flex-1 flex flex-col justify-center lg:text-center">
+      <div className="flex flex-col lg:flex-row mx-4 my-8 lg:mt-32 lg:mb-40 gap-8 lg:gap-16">
+        <div className="flex-1 flex flex-col justify-center">
           <h2 className="md:text-3xl md:font-thin md:mb-4">
             Angebot für Ernährungsberater:innen
           </h2>
@@ -59,7 +59,7 @@ export default function Ernährungsberater() {
         ohne versteckte Kosten. Bist du neugierig geworden? Lass uns gerne ins
         Gespräch kommen!
       </p>
-      <div className="">
+      <div className="mb-8 lg:mb-32">
         <div className="p-4">
           <p className="text-center">Unverbindlich anfragen unter:</p>
           <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:gap-4">
